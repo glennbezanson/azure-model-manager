@@ -1,0 +1,8246 @@
+[
+  {
+    "kind": "OpenAI",
+    "sku_name": "S0",
+    "model": {
+      "name": "dall-e-3",
+      "version": "3.0",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Standard",
+        "usage_name": "OpenAI.Standard.Dalle",
+        "capacity": {
+          "default": 1,
+          "maximum": 1000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "OpenAI",
+    "sku_name": "S0",
+    "model": {
+      "name": "dall-e-2",
+      "version": "2.0",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Standard",
+        "usage_name": "OpenAI.Standard.Dalle-2",
+        "capacity": {
+          "default": 1,
+          "maximum": 1000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "OpenAI",
+    "sku_name": "S0",
+    "model": {
+      "name": "code-cushman-fine-tune-002",
+      "version": "1",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Standard",
+        "usage_name": "OpenAI.Standard.code-cushman-fine-tune-002",
+        "capacity": {
+          "default": 120,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "OpenAI",
+    "sku_name": "S0",
+    "model": {
+      "name": "whisper",
+      "version": "001",
+      "format": "OpenAI",
+      "publisher": null
+    }
+  },
+  {
+    "kind": "OpenAI",
+    "sku_name": "S0",
+    "model": {
+      "name": "gpt-4",
+      "version": "0125-Preview",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Standard",
+        "usage_name": "OpenAI.Standard.gpt-4-turbo",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "ProvisionedManaged",
+        "usage_name": "OpenAI.ProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 30000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "OpenAI",
+    "sku_name": "S0",
+    "model": {
+      "name": "gpt-4",
+      "version": "1106-Preview",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "ProvisionedManaged",
+        "usage_name": "OpenAI.ProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 30000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "OpenAI",
+    "sku_name": "S0",
+    "model": {
+      "name": "gpt-4",
+      "version": "0613",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Standard",
+        "usage_name": "OpenAI.Standard.gpt-4",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "GlobalBatch",
+        "usage_name": "OpenAI.GlobalBatch.gpt-4",
+        "capacity": {
+          "default": 10,
+          "maximum": 10000000
+        }
+      },
+      {
+        "name": "ProvisionedManaged",
+        "usage_name": "OpenAI.ProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 30000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "OpenAI",
+    "sku_name": "S0",
+    "model": {
+      "name": "gpt-4-32k",
+      "version": "0613",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "ProvisionedManaged",
+        "usage_name": "OpenAI.ProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 30000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "OpenAI",
+    "sku_name": "S0",
+    "model": {
+      "name": "gpt-4",
+      "version": "turbo-2024-04-09",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Standard",
+        "usage_name": "OpenAI.Standard.gpt-4-turbo",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "GlobalStandard",
+        "usage_name": "OpenAI.GlobalStandard.gpt-4-turbo-2024-0409",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "GlobalBatch",
+        "usage_name": "OpenAI.GlobalBatch.gpt-4-turbo",
+        "capacity": {
+          "default": 10,
+          "maximum": 10000000
+        }
+      },
+      {
+        "name": "ProvisionedManaged",
+        "usage_name": "OpenAI.ProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 30000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "OpenAI",
+    "sku_name": "S0",
+    "model": {
+      "name": "gpt-4o",
+      "version": "2024-05-13",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Standard",
+        "usage_name": "OpenAI.Standard.gpt-4o",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "GlobalStandard",
+        "usage_name": "OpenAI.GlobalStandard.gpt-4o",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "ProvisionedManaged",
+        "usage_name": "OpenAI.ProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 30000
+        }
+      },
+      {
+        "name": "GlobalBatch",
+        "usage_name": "OpenAI.GlobalBatch.gpt-4o",
+        "capacity": {
+          "default": 10,
+          "maximum": 10000000
+        }
+      },
+      {
+        "name": "DataZoneStandard",
+        "usage_name": "OpenAI.DataZoneStandard.gpt-4o",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "DataZoneProvisionedManaged",
+        "usage_name": "OpenAI.DataZoneProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 100000
+        }
+      },
+      {
+        "name": "GlobalProvisionedManaged",
+        "usage_name": "OpenAI.GlobalProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 100000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "OpenAI",
+    "sku_name": "S0",
+    "model": {
+      "name": "gpt-4o",
+      "version": "2024-08-06",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Standard",
+        "usage_name": "OpenAI.Standard.gpt-4o",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "GlobalStandard",
+        "usage_name": "OpenAI.GlobalStandard.gpt-4o",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "ProvisionedManaged",
+        "usage_name": "OpenAI.ProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 30000
+        }
+      },
+      {
+        "name": "GlobalProvisionedManaged",
+        "usage_name": "OpenAI.GlobalProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 100000
+        }
+      },
+      {
+        "name": "GlobalStandard",
+        "usage_name": "OpenAI.GlobalStandard.gpt-4o-finetune",
+        "capacity": {
+          "default": 50,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "GlobalBatch",
+        "usage_name": "OpenAI.GlobalBatch.gpt-4o",
+        "capacity": {
+          "default": 10,
+          "maximum": 75000000
+        }
+      },
+      {
+        "name": "DataZoneStandard",
+        "usage_name": "OpenAI.DataZoneStandard.gpt-4o",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "DataZoneProvisionedManaged",
+        "usage_name": "OpenAI.DataZoneProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 100000
+        }
+      },
+      {
+        "name": "DataZoneBatch",
+        "usage_name": "OpenAI.DataZoneBatch.gpt-4o",
+        "capacity": {
+          "default": 10,
+          "maximum": 75000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "OpenAI",
+    "sku_name": "S0",
+    "model": {
+      "name": "gpt-4o-mini",
+      "version": "2024-07-18",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Standard",
+        "usage_name": "OpenAI.Standard.gpt-4o-mini",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "GlobalStandard",
+        "usage_name": "OpenAI.GlobalStandard.gpt-4o-mini",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "GlobalBatch",
+        "usage_name": "OpenAI.GlobalBatch.gpt-4o-mini",
+        "capacity": {
+          "default": 10,
+          "maximum": 20000000
+        }
+      },
+      {
+        "name": "ProvisionedManaged",
+        "usage_name": "OpenAI.ProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 30000
+        }
+      },
+      {
+        "name": "GlobalStandard",
+        "usage_name": "OpenAI.GlobalStandard.gpt-4o-mini-finetune",
+        "capacity": {
+          "default": 50,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "GlobalProvisionedManaged",
+        "usage_name": "OpenAI.GlobalProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 100000
+        }
+      },
+      {
+        "name": "DataZoneStandard",
+        "usage_name": "OpenAI.DataZoneStandard.gpt-4o-mini",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "DataZoneProvisionedManaged",
+        "usage_name": "OpenAI.DataZoneProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 100000
+        }
+      },
+      {
+        "name": "DataZoneBatch",
+        "usage_name": "OpenAI.DataZoneBatch.gpt-4o-mini",
+        "capacity": {
+          "default": 10,
+          "maximum": 15000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "OpenAI",
+    "sku_name": "S0",
+    "model": {
+      "name": "gpt-4o",
+      "version": "2024-11-20",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Standard",
+        "usage_name": "OpenAI.Standard.gpt-4o",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "ProvisionedManaged",
+        "usage_name": "OpenAI.ProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 30000
+        }
+      },
+      {
+        "name": "DataZoneStandard",
+        "usage_name": "OpenAI.DataZoneStandard.gpt-4o",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "GlobalStandard",
+        "usage_name": "OpenAI.GlobalStandard.gpt-4o",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "DataZoneBatch",
+        "usage_name": "OpenAI.DataZoneBatch.gpt-4o",
+        "capacity": {
+          "default": 10,
+          "maximum": 75000000
+        }
+      },
+      {
+        "name": "GlobalBatch",
+        "usage_name": "OpenAI.GlobalBatch.gpt-4o",
+        "capacity": {
+          "default": 10,
+          "maximum": 10000000
+        }
+      },
+      {
+        "name": "GlobalProvisionedManaged",
+        "usage_name": "OpenAI.GlobalProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 30000
+        }
+      },
+      {
+        "name": "DataZoneProvisionedManaged",
+        "usage_name": "OpenAI.DataZoneProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 30000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "OpenAI",
+    "sku_name": "S0",
+    "model": {
+      "name": "gpt-4o-audio-preview",
+      "version": "2024-12-17",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Provisioned",
+        "usage_name": "OpenAI.Provisioned.gpt-4o-audio-preview",
+        "capacity": {
+          "default": 100,
+          "maximum": 30000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "OpenAI",
+    "sku_name": "S0",
+    "model": {
+      "name": "gpt-4o-mini-audio-preview",
+      "version": "2024-12-17",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "OpenAI.GlobalStandard.gpt-4o-mini-audio-preview",
+        "capacity": {
+          "default": 100,
+          "maximum": 30000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "OpenAI",
+    "sku_name": "S0",
+    "model": {
+      "name": "gpt-35-turbo",
+      "version": "0301",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Standard",
+        "usage_name": "OpenAI.Standard.gpt-35-turbo",
+        "capacity": {
+          "default": 120,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "OpenAI",
+    "sku_name": "S0",
+    "model": {
+      "name": "gpt-35-turbo",
+      "version": "0613",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Standard",
+        "usage_name": "OpenAI.Standard.gpt-35-turbo",
+        "capacity": {
+          "default": 120,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "GlobalBatch",
+        "usage_name": "OpenAI.GlobalBatch.gpt-35-turbo",
+        "capacity": {
+          "default": 10,
+          "maximum": 10000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "OpenAI",
+    "sku_name": "S0",
+    "model": {
+      "name": "gpt-35-turbo",
+      "version": "1106",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalBatch",
+        "usage_name": "OpenAI.GlobalBatch.gpt-35-turbo",
+        "capacity": {
+          "default": 10,
+          "maximum": 10000000
+        }
+      },
+      {
+        "name": "ProvisionedManaged",
+        "usage_name": "OpenAI.ProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 30000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "OpenAI",
+    "sku_name": "S0",
+    "model": {
+      "name": "gpt-35-turbo",
+      "version": "0125",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Standard",
+        "usage_name": "OpenAI.Standard.gpt-35-turbo",
+        "capacity": {
+          "default": 100,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "GlobalBatch",
+        "usage_name": "OpenAI.GlobalBatch.gpt-35-turbo",
+        "capacity": {
+          "default": 10,
+          "maximum": 10000000
+        }
+      },
+      {
+        "name": "ProvisionedManaged",
+        "usage_name": "OpenAI.ProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 30000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "OpenAI",
+    "sku_name": "S0",
+    "model": {
+      "name": "gpt-35-turbo-instruct",
+      "version": "0914",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Standard",
+        "usage_name": "OpenAI.Standard.gpt-35-turbo-instruct",
+        "capacity": {
+          "default": 120,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "OpenAI",
+    "sku_name": "S0",
+    "model": {
+      "name": "gpt-35-turbo-16k",
+      "version": "0613",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Standard",
+        "usage_name": "OpenAI.Standard.gpt-35-turbo",
+        "capacity": {
+          "default": 120,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "OpenAI",
+    "sku_name": "S0",
+    "model": {
+      "name": "davinci",
+      "version": "1",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Standard",
+        "usage_name": "OpenAI.Standard.davinci",
+        "capacity": {
+          "default": 120,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "OpenAI",
+    "sku_name": "S0",
+    "model": {
+      "name": "text-davinci-002",
+      "version": "1",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Standard",
+        "usage_name": "OpenAI.Standard.text-davinci-002",
+        "capacity": {
+          "default": 120,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "OpenAI",
+    "sku_name": "S0",
+    "model": {
+      "name": "text-davinci-003",
+      "version": "1",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Standard",
+        "usage_name": "OpenAI.Standard.text-davinci-003",
+        "capacity": {
+          "default": 60,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "OpenAI",
+    "sku_name": "S0",
+    "model": {
+      "name": "text-davinci-fine-tune-002",
+      "version": "1",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Standard",
+        "usage_name": "OpenAI.Standard.text-davinci-fine-tune-002",
+        "capacity": {
+          "default": 120,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "OpenAI",
+    "sku_name": "S0",
+    "model": {
+      "name": "code-davinci-002",
+      "version": "1",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Standard",
+        "usage_name": "OpenAI.Standard.code-davinci-002",
+        "capacity": {
+          "default": 120,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "OpenAI",
+    "sku_name": "S0",
+    "model": {
+      "name": "code-davinci-fine-tune-002",
+      "version": "1",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Standard",
+        "usage_name": "OpenAI.Standard.code-davinci-fine-tune-002",
+        "capacity": {
+          "default": 120,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "OpenAI",
+    "sku_name": "S0",
+    "model": {
+      "name": "babbage",
+      "version": "1",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Standard",
+        "usage_name": "OpenAI.Standard.babbage",
+        "capacity": {
+          "default": 120,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "OpenAI",
+    "sku_name": "S0",
+    "model": {
+      "name": "text-babbage-001",
+      "version": "1",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Standard",
+        "usage_name": "OpenAI.Standard.text-babbage-001",
+        "capacity": {
+          "default": 120,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "OpenAI",
+    "sku_name": "S0",
+    "model": {
+      "name": "ada",
+      "version": "1",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Standard",
+        "usage_name": "OpenAI.Standard.ada",
+        "capacity": {
+          "default": 120,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "OpenAI",
+    "sku_name": "S0",
+    "model": {
+      "name": "text-ada-001",
+      "version": "1",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Standard",
+        "usage_name": "OpenAI.Standard.text-ada-001",
+        "capacity": {
+          "default": 120,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "OpenAI",
+    "sku_name": "S0",
+    "model": {
+      "name": "text-similarity-ada-001",
+      "version": "1",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Standard",
+        "usage_name": "OpenAI.Standard.text-similarity-ada-001",
+        "capacity": {
+          "default": 120,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "OpenAI",
+    "sku_name": "S0",
+    "model": {
+      "name": "text-embedding-ada-002",
+      "version": "1",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Standard",
+        "usage_name": "OpenAI.Standard.text-embedding-ada-002",
+        "capacity": {
+          "default": 120,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "OpenAI",
+    "sku_name": "S0",
+    "model": {
+      "name": "text-embedding-ada-002",
+      "version": "2",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Standard",
+        "usage_name": "OpenAI.Standard.text-embedding-ada-002",
+        "capacity": {
+          "default": 120,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "GlobalStandard",
+        "usage_name": "OpenAI.GlobalStandard.text-embedding-ada-002",
+        "capacity": {
+          "default": 120,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "OpenAI",
+    "sku_name": "S0",
+    "model": {
+      "name": "curie",
+      "version": "1",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Standard",
+        "usage_name": "OpenAI.Standard.curie",
+        "capacity": {
+          "default": 120,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "OpenAI",
+    "sku_name": "S0",
+    "model": {
+      "name": "text-curie-001",
+      "version": "1",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Standard",
+        "usage_name": "OpenAI.Standard.text-curie-001",
+        "capacity": {
+          "default": 120,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "OpenAI",
+    "sku_name": "S0",
+    "model": {
+      "name": "text-similarity-curie-001",
+      "version": "1",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Standard",
+        "usage_name": "OpenAI.Standard.text-similarity-curie-001",
+        "capacity": {
+          "default": 120,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "OpenAI",
+    "sku_name": "S0",
+    "model": {
+      "name": "text-embedding-3-small",
+      "version": "1",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Standard",
+        "usage_name": "OpenAI.Standard.text-embedding-3-small",
+        "capacity": {
+          "default": 120,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "GlobalStandard",
+        "usage_name": "OpenAI.GlobalStandard.text-embedding-3-small",
+        "capacity": {
+          "default": 120,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "OpenAI",
+    "sku_name": "S0",
+    "model": {
+      "name": "text-embedding-3-large",
+      "version": "1",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Standard",
+        "usage_name": "OpenAI.Standard.text-embedding-3-large",
+        "capacity": {
+          "default": 120,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "GlobalStandard",
+        "usage_name": "OpenAI.GlobalStandard.text-embedding-3-large",
+        "capacity": {
+          "default": 120,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "OpenAI",
+    "sku_name": "S0",
+    "model": {
+      "name": "o1-mini",
+      "version": "2024-09-12",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "OpenAI.GlobalStandard.o1-mini",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "OpenAI",
+    "sku_name": "S0",
+    "model": {
+      "name": "o1",
+      "version": "2024-12-17",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Standard",
+        "usage_name": "OpenAI.Standard.o1",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "GlobalStandard",
+        "usage_name": "OpenAI.GlobalStandard.o1",
+        "capacity": {
+          "default": 10,
+          "maximum": 50000
+        }
+      },
+      {
+        "name": "DataZoneStandard",
+        "usage_name": "OpenAI.DataZoneStandard.o1",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "GlobalProvisionedManaged",
+        "usage_name": "OpenAI.GlobalProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 30000
+        }
+      },
+      {
+        "name": "DataZoneProvisionedManaged",
+        "usage_name": "OpenAI.DataZoneProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 100000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "OpenAI",
+    "sku_name": "S0",
+    "model": {
+      "name": "o3-mini",
+      "version": "2025-01-31",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "OpenAI.GlobalStandard.o3-mini",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "GlobalBatch",
+        "usage_name": "OpenAI.GlobalBatch.o3-mini",
+        "capacity": {
+          "default": 10,
+          "maximum": 10000000
+        }
+      },
+      {
+        "name": "DataZoneBatch",
+        "usage_name": "OpenAI.DataZoneBatch.o3-mini",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "DataZoneStandard",
+        "usage_name": "OpenAI.DataZoneStandard.o3-mini",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "GlobalProvisionedManaged",
+        "usage_name": "OpenAI.GlobalProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 30000
+        }
+      },
+      {
+        "name": "DataZoneProvisionedManaged",
+        "usage_name": "OpenAI.DataZoneProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 100000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "OpenAI",
+    "sku_name": "S0",
+    "model": {
+      "name": "o4-mini",
+      "version": "2025-04-16",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Standard",
+        "usage_name": "OpenAI.Standard.o4-mini",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "GlobalStandard",
+        "usage_name": "OpenAI.GlobalStandard.o4-mini",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "ProvisionedManaged",
+        "usage_name": "OpenAI.ProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 30000
+        }
+      },
+      {
+        "name": "DataZoneProvisionedManaged",
+        "usage_name": "OpenAI.DataZoneProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 100000
+        }
+      },
+      {
+        "name": "GlobalProvisionedManaged",
+        "usage_name": "OpenAI.GlobalProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 30000
+        }
+      },
+      {
+        "name": "GlobalBatch",
+        "usage_name": "OpenAI.GlobalBatch.o4-mini",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "DataZoneBatch",
+        "usage_name": "OpenAI.DataZoneBatch.o4-mini",
+        "capacity": {
+          "default": 10,
+          "maximum": 75000000
+        }
+      },
+      {
+        "name": "DataZoneStandard",
+        "usage_name": "OpenAI.DataZoneStandard.o4-mini",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "OpenAI",
+    "sku_name": "S0",
+    "model": {
+      "name": "gpt-4.1",
+      "version": "2025-04-14",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Standard",
+        "usage_name": "OpenAI.Standard.gpt4.1",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "GlobalStandard",
+        "usage_name": "OpenAI.GlobalStandard.gpt4.1",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "DataZoneStandard",
+        "usage_name": "OpenAI.DataZoneStandard.gpt4.1",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "ProvisionedManaged",
+        "usage_name": "OpenAI.ProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 30000
+        }
+      },
+      {
+        "name": "DataZoneProvisionedManaged",
+        "usage_name": "OpenAI.DataZoneProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 100000
+        }
+      },
+      {
+        "name": "GlobalProvisionedManaged",
+        "usage_name": "OpenAI.GlobalProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 30000
+        }
+      },
+      {
+        "name": "GlobalStandard",
+        "usage_name": "OpenAI.GlobalStandard.gpt4.1-finetune",
+        "capacity": {
+          "default": 10,
+          "maximum": 10000000
+        }
+      },
+      {
+        "name": "DeveloperTier",
+        "usage_name": "OpenAI.DeveloperTier.gpt4.1-finetune",
+        "capacity": {
+          "default": 50,
+          "maximum": 250
+        }
+      },
+      {
+        "name": "GlobalBatch",
+        "usage_name": "OpenAI.GlobalBatch.gpt-4.1",
+        "capacity": {
+          "default": 10,
+          "maximum": 75000000
+        }
+      },
+      {
+        "name": "DataZoneBatch",
+        "usage_name": "OpenAI.DataZoneBatch.gpt-4.1",
+        "capacity": {
+          "default": 10,
+          "maximum": 75000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "OpenAI",
+    "sku_name": "S0",
+    "model": {
+      "name": "gpt-4.1-mini",
+      "version": "2025-04-14",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Standard",
+        "usage_name": "OpenAI.Standard.gpt4.1-mini",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "GlobalStandard",
+        "usage_name": "OpenAI.GlobalStandard.gpt4.1-mini",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "DataZoneStandard",
+        "usage_name": "OpenAI.DataZoneStandard.gpt4.1-mini",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "GlobalStandard",
+        "usage_name": "OpenAI.GlobalStandard.gpt4.1-mini-finetune",
+        "capacity": {
+          "default": 10,
+          "maximum": 10000000
+        }
+      },
+      {
+        "name": "DeveloperTier",
+        "usage_name": "OpenAI.DeveloperTier.gpt4.1-mini-finetune",
+        "capacity": {
+          "default": 50,
+          "maximum": 250
+        }
+      },
+      {
+        "name": "GlobalProvisionedManaged",
+        "usage_name": "OpenAI.GlobalProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 30000
+        }
+      },
+      {
+        "name": "ProvisionedManaged",
+        "usage_name": "OpenAI.ProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 30000
+        }
+      },
+      {
+        "name": "DataZoneProvisionedManaged",
+        "usage_name": "OpenAI.DataZoneProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 100000
+        }
+      },
+      {
+        "name": "GlobalBatch",
+        "usage_name": "OpenAI.GlobalBatch.gpt-4.1-mini",
+        "capacity": {
+          "default": 10,
+          "maximum": 75000000
+        }
+      },
+      {
+        "name": "DataZoneBatch",
+        "usage_name": "OpenAI.DataZoneBatch.gpt-4.1-mini",
+        "capacity": {
+          "default": 10,
+          "maximum": 75000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "OpenAI",
+    "sku_name": "S0",
+    "model": {
+      "name": "gpt-4.1-nano",
+      "version": "2025-04-14",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "OpenAI.GlobalStandard.gpt4.1-nano",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "GlobalStandard",
+        "usage_name": "OpenAI.GlobalStandard.gpt4.1-nano-finetune",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "DeveloperTier",
+        "usage_name": "OpenAI.DeveloperTier.gpt4.1-nano-finetune",
+        "capacity": {
+          "default": 50,
+          "maximum": 250
+        }
+      },
+      {
+        "name": "DataZoneStandard",
+        "usage_name": "OpenAI.DataZoneStandard.gpt4.1-nano",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "DataZoneProvisionedManaged",
+        "usage_name": "OpenAI.DataZoneProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 100000
+        }
+      },
+      {
+        "name": "GlobalProvisionedManaged",
+        "usage_name": "OpenAI.GlobalProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 30000
+        }
+      },
+      {
+        "name": "ProvisionedManaged",
+        "usage_name": "OpenAI.ProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 30000
+        }
+      },
+      {
+        "name": "GlobalBatch",
+        "usage_name": "OpenAI.GlobalBatch.gpt-4.1-nano",
+        "capacity": {
+          "default": 10,
+          "maximum": 75000000
+        }
+      },
+      {
+        "name": "DataZoneBatch",
+        "usage_name": "OpenAI.DataZoneBatch.gpt-4.1-nano",
+        "capacity": {
+          "default": 10,
+          "maximum": 75000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "OpenAI",
+    "sku_name": "S0",
+    "model": {
+      "name": "gpt-5-mini",
+      "version": "2025-08-07",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "OpenAI.GlobalStandard.gpt-5-mini",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "DataZoneProvisionedManaged",
+        "usage_name": "OpenAI.DataZoneProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 100000
+        }
+      },
+      {
+        "name": "GlobalProvisionedManaged",
+        "usage_name": "OpenAI.GlobalProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 30000
+        }
+      },
+      {
+        "name": "DataZoneStandard",
+        "usage_name": "OpenAI.DataZoneStandard.gpt-5-mini",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "OpenAI",
+    "sku_name": "S0",
+    "model": {
+      "name": "gpt-5-nano",
+      "version": "2025-08-07",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "OpenAI.GlobalStandard.gpt-5-nano",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "DataZoneStandard",
+        "usage_name": "OpenAI.DataZoneStandard.gpt-5-nano",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "dall-e-3",
+      "version": "3.0",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Standard",
+        "usage_name": "OpenAI.Standard.Dalle",
+        "capacity": {
+          "default": 1,
+          "maximum": 1000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "dall-e-2",
+      "version": "2.0",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Standard",
+        "usage_name": "OpenAI.Standard.Dalle-2",
+        "capacity": {
+          "default": 1,
+          "maximum": 1000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "code-cushman-fine-tune-002",
+      "version": "1",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Standard",
+        "usage_name": "OpenAI.Standard.code-cushman-fine-tune-002",
+        "capacity": {
+          "default": 120,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "whisper",
+      "version": "001",
+      "format": "OpenAI",
+      "publisher": null
+    }
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "gpt-4",
+      "version": "0125-Preview",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Standard",
+        "usage_name": "OpenAI.Standard.gpt-4-turbo",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "ProvisionedManaged",
+        "usage_name": "OpenAI.ProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 30000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "gpt-4",
+      "version": "1106-Preview",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "ProvisionedManaged",
+        "usage_name": "OpenAI.ProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 30000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "gpt-4",
+      "version": "0613",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Standard",
+        "usage_name": "OpenAI.Standard.gpt-4",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "GlobalBatch",
+        "usage_name": "OpenAI.GlobalBatch.gpt-4",
+        "capacity": {
+          "default": 10,
+          "maximum": 10000000
+        }
+      },
+      {
+        "name": "ProvisionedManaged",
+        "usage_name": "OpenAI.ProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 30000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "gpt-4-32k",
+      "version": "0613",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "ProvisionedManaged",
+        "usage_name": "OpenAI.ProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 30000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "gpt-4",
+      "version": "turbo-2024-04-09",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Standard",
+        "usage_name": "OpenAI.Standard.gpt-4-turbo",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "GlobalStandard",
+        "usage_name": "OpenAI.GlobalStandard.gpt-4-turbo-2024-0409",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "GlobalBatch",
+        "usage_name": "OpenAI.GlobalBatch.gpt-4-turbo",
+        "capacity": {
+          "default": 10,
+          "maximum": 10000000
+        }
+      },
+      {
+        "name": "ProvisionedManaged",
+        "usage_name": "OpenAI.ProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 30000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "gpt-4o",
+      "version": "2024-05-13",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Standard",
+        "usage_name": "OpenAI.Standard.gpt-4o",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "GlobalStandard",
+        "usage_name": "OpenAI.GlobalStandard.gpt-4o",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "ProvisionedManaged",
+        "usage_name": "OpenAI.ProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 30000
+        }
+      },
+      {
+        "name": "GlobalBatch",
+        "usage_name": "OpenAI.GlobalBatch.gpt-4o",
+        "capacity": {
+          "default": 10,
+          "maximum": 10000000
+        }
+      },
+      {
+        "name": "DataZoneStandard",
+        "usage_name": "OpenAI.DataZoneStandard.gpt-4o",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "DataZoneProvisionedManaged",
+        "usage_name": "OpenAI.DataZoneProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 100000
+        }
+      },
+      {
+        "name": "GlobalProvisionedManaged",
+        "usage_name": "OpenAI.GlobalProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 100000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "gpt-4o",
+      "version": "2024-08-06",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Standard",
+        "usage_name": "OpenAI.Standard.gpt-4o",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "GlobalStandard",
+        "usage_name": "OpenAI.GlobalStandard.gpt-4o",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "ProvisionedManaged",
+        "usage_name": "OpenAI.ProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 30000
+        }
+      },
+      {
+        "name": "GlobalProvisionedManaged",
+        "usage_name": "OpenAI.GlobalProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 100000
+        }
+      },
+      {
+        "name": "GlobalStandard",
+        "usage_name": "OpenAI.GlobalStandard.gpt-4o-finetune",
+        "capacity": {
+          "default": 50,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "GlobalBatch",
+        "usage_name": "OpenAI.GlobalBatch.gpt-4o",
+        "capacity": {
+          "default": 10,
+          "maximum": 75000000
+        }
+      },
+      {
+        "name": "DataZoneStandard",
+        "usage_name": "OpenAI.DataZoneStandard.gpt-4o",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "DataZoneProvisionedManaged",
+        "usage_name": "OpenAI.DataZoneProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 100000
+        }
+      },
+      {
+        "name": "DataZoneBatch",
+        "usage_name": "OpenAI.DataZoneBatch.gpt-4o",
+        "capacity": {
+          "default": 10,
+          "maximum": 75000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "gpt-4o-mini",
+      "version": "2024-07-18",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Standard",
+        "usage_name": "OpenAI.Standard.gpt-4o-mini",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "GlobalStandard",
+        "usage_name": "OpenAI.GlobalStandard.gpt-4o-mini",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "GlobalBatch",
+        "usage_name": "OpenAI.GlobalBatch.gpt-4o-mini",
+        "capacity": {
+          "default": 10,
+          "maximum": 20000000
+        }
+      },
+      {
+        "name": "ProvisionedManaged",
+        "usage_name": "OpenAI.ProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 30000
+        }
+      },
+      {
+        "name": "GlobalStandard",
+        "usage_name": "OpenAI.GlobalStandard.gpt-4o-mini-finetune",
+        "capacity": {
+          "default": 50,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "GlobalProvisionedManaged",
+        "usage_name": "OpenAI.GlobalProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 100000
+        }
+      },
+      {
+        "name": "DataZoneStandard",
+        "usage_name": "OpenAI.DataZoneStandard.gpt-4o-mini",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "DataZoneProvisionedManaged",
+        "usage_name": "OpenAI.DataZoneProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 100000
+        }
+      },
+      {
+        "name": "DataZoneBatch",
+        "usage_name": "OpenAI.DataZoneBatch.gpt-4o-mini",
+        "capacity": {
+          "default": 10,
+          "maximum": 15000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "gpt-4o",
+      "version": "2024-11-20",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Standard",
+        "usage_name": "OpenAI.Standard.gpt-4o",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "ProvisionedManaged",
+        "usage_name": "OpenAI.ProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 30000
+        }
+      },
+      {
+        "name": "DataZoneStandard",
+        "usage_name": "OpenAI.DataZoneStandard.gpt-4o",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "GlobalStandard",
+        "usage_name": "OpenAI.GlobalStandard.gpt-4o",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "DataZoneBatch",
+        "usage_name": "OpenAI.DataZoneBatch.gpt-4o",
+        "capacity": {
+          "default": 10,
+          "maximum": 75000000
+        }
+      },
+      {
+        "name": "GlobalBatch",
+        "usage_name": "OpenAI.GlobalBatch.gpt-4o",
+        "capacity": {
+          "default": 10,
+          "maximum": 10000000
+        }
+      },
+      {
+        "name": "GlobalProvisionedManaged",
+        "usage_name": "OpenAI.GlobalProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 30000
+        }
+      },
+      {
+        "name": "DataZoneProvisionedManaged",
+        "usage_name": "OpenAI.DataZoneProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 30000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "gpt-4o-audio-preview",
+      "version": "2024-12-17",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Provisioned",
+        "usage_name": "OpenAI.Provisioned.gpt-4o-audio-preview",
+        "capacity": {
+          "default": 100,
+          "maximum": 30000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "gpt-4o-mini-audio-preview",
+      "version": "2024-12-17",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "OpenAI.GlobalStandard.gpt-4o-mini-audio-preview",
+        "capacity": {
+          "default": 100,
+          "maximum": 30000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "gpt-35-turbo",
+      "version": "0301",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Standard",
+        "usage_name": "OpenAI.Standard.gpt-35-turbo",
+        "capacity": {
+          "default": 120,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "gpt-35-turbo",
+      "version": "0613",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Standard",
+        "usage_name": "OpenAI.Standard.gpt-35-turbo",
+        "capacity": {
+          "default": 120,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "GlobalBatch",
+        "usage_name": "OpenAI.GlobalBatch.gpt-35-turbo",
+        "capacity": {
+          "default": 10,
+          "maximum": 10000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "gpt-35-turbo",
+      "version": "1106",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalBatch",
+        "usage_name": "OpenAI.GlobalBatch.gpt-35-turbo",
+        "capacity": {
+          "default": 10,
+          "maximum": 10000000
+        }
+      },
+      {
+        "name": "ProvisionedManaged",
+        "usage_name": "OpenAI.ProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 30000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "gpt-35-turbo",
+      "version": "0125",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Standard",
+        "usage_name": "OpenAI.Standard.gpt-35-turbo",
+        "capacity": {
+          "default": 100,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "GlobalBatch",
+        "usage_name": "OpenAI.GlobalBatch.gpt-35-turbo",
+        "capacity": {
+          "default": 10,
+          "maximum": 10000000
+        }
+      },
+      {
+        "name": "ProvisionedManaged",
+        "usage_name": "OpenAI.ProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 30000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "gpt-35-turbo-instruct",
+      "version": "0914",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Standard",
+        "usage_name": "OpenAI.Standard.gpt-35-turbo-instruct",
+        "capacity": {
+          "default": 120,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "gpt-35-turbo-16k",
+      "version": "0613",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Standard",
+        "usage_name": "OpenAI.Standard.gpt-35-turbo",
+        "capacity": {
+          "default": 120,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "davinci",
+      "version": "1",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Standard",
+        "usage_name": "OpenAI.Standard.davinci",
+        "capacity": {
+          "default": 120,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "text-davinci-002",
+      "version": "1",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Standard",
+        "usage_name": "OpenAI.Standard.text-davinci-002",
+        "capacity": {
+          "default": 120,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "text-davinci-003",
+      "version": "1",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Standard",
+        "usage_name": "OpenAI.Standard.text-davinci-003",
+        "capacity": {
+          "default": 60,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "text-davinci-fine-tune-002",
+      "version": "1",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Standard",
+        "usage_name": "OpenAI.Standard.text-davinci-fine-tune-002",
+        "capacity": {
+          "default": 120,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "code-davinci-002",
+      "version": "1",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Standard",
+        "usage_name": "OpenAI.Standard.code-davinci-002",
+        "capacity": {
+          "default": 120,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "code-davinci-fine-tune-002",
+      "version": "1",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Standard",
+        "usage_name": "OpenAI.Standard.code-davinci-fine-tune-002",
+        "capacity": {
+          "default": 120,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "babbage",
+      "version": "1",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Standard",
+        "usage_name": "OpenAI.Standard.babbage",
+        "capacity": {
+          "default": 120,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "text-babbage-001",
+      "version": "1",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Standard",
+        "usage_name": "OpenAI.Standard.text-babbage-001",
+        "capacity": {
+          "default": 120,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "ada",
+      "version": "1",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Standard",
+        "usage_name": "OpenAI.Standard.ada",
+        "capacity": {
+          "default": 120,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "text-ada-001",
+      "version": "1",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Standard",
+        "usage_name": "OpenAI.Standard.text-ada-001",
+        "capacity": {
+          "default": 120,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "text-similarity-ada-001",
+      "version": "1",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Standard",
+        "usage_name": "OpenAI.Standard.text-similarity-ada-001",
+        "capacity": {
+          "default": 120,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "text-embedding-ada-002",
+      "version": "1",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Standard",
+        "usage_name": "OpenAI.Standard.text-embedding-ada-002",
+        "capacity": {
+          "default": 120,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "text-embedding-ada-002",
+      "version": "2",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Standard",
+        "usage_name": "OpenAI.Standard.text-embedding-ada-002",
+        "capacity": {
+          "default": 120,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "GlobalStandard",
+        "usage_name": "OpenAI.GlobalStandard.text-embedding-ada-002",
+        "capacity": {
+          "default": 120,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "curie",
+      "version": "1",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Standard",
+        "usage_name": "OpenAI.Standard.curie",
+        "capacity": {
+          "default": 120,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "text-curie-001",
+      "version": "1",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Standard",
+        "usage_name": "OpenAI.Standard.text-curie-001",
+        "capacity": {
+          "default": 120,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "text-similarity-curie-001",
+      "version": "1",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Standard",
+        "usage_name": "OpenAI.Standard.text-similarity-curie-001",
+        "capacity": {
+          "default": 120,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "text-embedding-3-small",
+      "version": "1",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Standard",
+        "usage_name": "OpenAI.Standard.text-embedding-3-small",
+        "capacity": {
+          "default": 120,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "GlobalStandard",
+        "usage_name": "OpenAI.GlobalStandard.text-embedding-3-small",
+        "capacity": {
+          "default": 120,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "text-embedding-3-large",
+      "version": "1",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Standard",
+        "usage_name": "OpenAI.Standard.text-embedding-3-large",
+        "capacity": {
+          "default": 120,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "GlobalStandard",
+        "usage_name": "OpenAI.GlobalStandard.text-embedding-3-large",
+        "capacity": {
+          "default": 120,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "o1-mini",
+      "version": "2024-09-12",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "OpenAI.GlobalStandard.o1-mini",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "o1",
+      "version": "2024-12-17",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Standard",
+        "usage_name": "OpenAI.Standard.o1",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "GlobalStandard",
+        "usage_name": "OpenAI.GlobalStandard.o1",
+        "capacity": {
+          "default": 10,
+          "maximum": 50000
+        }
+      },
+      {
+        "name": "DataZoneStandard",
+        "usage_name": "OpenAI.DataZoneStandard.o1",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "GlobalProvisionedManaged",
+        "usage_name": "OpenAI.GlobalProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 30000
+        }
+      },
+      {
+        "name": "DataZoneProvisionedManaged",
+        "usage_name": "OpenAI.DataZoneProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 100000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "o3-mini",
+      "version": "2025-01-31",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "OpenAI.GlobalStandard.o3-mini",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "GlobalBatch",
+        "usage_name": "OpenAI.GlobalBatch.o3-mini",
+        "capacity": {
+          "default": 10,
+          "maximum": 10000000
+        }
+      },
+      {
+        "name": "DataZoneBatch",
+        "usage_name": "OpenAI.DataZoneBatch.o3-mini",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "DataZoneStandard",
+        "usage_name": "OpenAI.DataZoneStandard.o3-mini",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "GlobalProvisionedManaged",
+        "usage_name": "OpenAI.GlobalProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 30000
+        }
+      },
+      {
+        "name": "DataZoneProvisionedManaged",
+        "usage_name": "OpenAI.DataZoneProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 100000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "o4-mini",
+      "version": "2025-04-16",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Standard",
+        "usage_name": "OpenAI.Standard.o4-mini",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "GlobalStandard",
+        "usage_name": "OpenAI.GlobalStandard.o4-mini",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "ProvisionedManaged",
+        "usage_name": "OpenAI.ProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 30000
+        }
+      },
+      {
+        "name": "DataZoneProvisionedManaged",
+        "usage_name": "OpenAI.DataZoneProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 100000
+        }
+      },
+      {
+        "name": "GlobalProvisionedManaged",
+        "usage_name": "OpenAI.GlobalProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 30000
+        }
+      },
+      {
+        "name": "GlobalBatch",
+        "usage_name": "OpenAI.GlobalBatch.o4-mini",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "DataZoneBatch",
+        "usage_name": "OpenAI.DataZoneBatch.o4-mini",
+        "capacity": {
+          "default": 10,
+          "maximum": 75000000
+        }
+      },
+      {
+        "name": "DataZoneStandard",
+        "usage_name": "OpenAI.DataZoneStandard.o4-mini",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "gpt-4.1",
+      "version": "2025-04-14",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Standard",
+        "usage_name": "OpenAI.Standard.gpt4.1",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "GlobalStandard",
+        "usage_name": "OpenAI.GlobalStandard.gpt4.1",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "DataZoneStandard",
+        "usage_name": "OpenAI.DataZoneStandard.gpt4.1",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "ProvisionedManaged",
+        "usage_name": "OpenAI.ProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 30000
+        }
+      },
+      {
+        "name": "DataZoneProvisionedManaged",
+        "usage_name": "OpenAI.DataZoneProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 100000
+        }
+      },
+      {
+        "name": "GlobalProvisionedManaged",
+        "usage_name": "OpenAI.GlobalProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 30000
+        }
+      },
+      {
+        "name": "GlobalStandard",
+        "usage_name": "OpenAI.GlobalStandard.gpt4.1-finetune",
+        "capacity": {
+          "default": 10,
+          "maximum": 10000000
+        }
+      },
+      {
+        "name": "DeveloperTier",
+        "usage_name": "OpenAI.DeveloperTier.gpt4.1-finetune",
+        "capacity": {
+          "default": 50,
+          "maximum": 250
+        }
+      },
+      {
+        "name": "GlobalBatch",
+        "usage_name": "OpenAI.GlobalBatch.gpt-4.1",
+        "capacity": {
+          "default": 10,
+          "maximum": 75000000
+        }
+      },
+      {
+        "name": "DataZoneBatch",
+        "usage_name": "OpenAI.DataZoneBatch.gpt-4.1",
+        "capacity": {
+          "default": 10,
+          "maximum": 75000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "gpt-4.1-mini",
+      "version": "2025-04-14",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "Standard",
+        "usage_name": "OpenAI.Standard.gpt4.1-mini",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "GlobalStandard",
+        "usage_name": "OpenAI.GlobalStandard.gpt4.1-mini",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "DataZoneStandard",
+        "usage_name": "OpenAI.DataZoneStandard.gpt4.1-mini",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "GlobalStandard",
+        "usage_name": "OpenAI.GlobalStandard.gpt4.1-mini-finetune",
+        "capacity": {
+          "default": 10,
+          "maximum": 10000000
+        }
+      },
+      {
+        "name": "DeveloperTier",
+        "usage_name": "OpenAI.DeveloperTier.gpt4.1-mini-finetune",
+        "capacity": {
+          "default": 50,
+          "maximum": 250
+        }
+      },
+      {
+        "name": "GlobalProvisionedManaged",
+        "usage_name": "OpenAI.GlobalProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 30000
+        }
+      },
+      {
+        "name": "ProvisionedManaged",
+        "usage_name": "OpenAI.ProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 30000
+        }
+      },
+      {
+        "name": "DataZoneProvisionedManaged",
+        "usage_name": "OpenAI.DataZoneProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 100000
+        }
+      },
+      {
+        "name": "GlobalBatch",
+        "usage_name": "OpenAI.GlobalBatch.gpt-4.1-mini",
+        "capacity": {
+          "default": 10,
+          "maximum": 75000000
+        }
+      },
+      {
+        "name": "DataZoneBatch",
+        "usage_name": "OpenAI.DataZoneBatch.gpt-4.1-mini",
+        "capacity": {
+          "default": 10,
+          "maximum": 75000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "gpt-4.1-nano",
+      "version": "2025-04-14",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "OpenAI.GlobalStandard.gpt4.1-nano",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "GlobalStandard",
+        "usage_name": "OpenAI.GlobalStandard.gpt4.1-nano-finetune",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "DeveloperTier",
+        "usage_name": "OpenAI.DeveloperTier.gpt4.1-nano-finetune",
+        "capacity": {
+          "default": 50,
+          "maximum": 250
+        }
+      },
+      {
+        "name": "DataZoneStandard",
+        "usage_name": "OpenAI.DataZoneStandard.gpt4.1-nano",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "DataZoneProvisionedManaged",
+        "usage_name": "OpenAI.DataZoneProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 100000
+        }
+      },
+      {
+        "name": "GlobalProvisionedManaged",
+        "usage_name": "OpenAI.GlobalProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 30000
+        }
+      },
+      {
+        "name": "ProvisionedManaged",
+        "usage_name": "OpenAI.ProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 30000
+        }
+      },
+      {
+        "name": "GlobalBatch",
+        "usage_name": "OpenAI.GlobalBatch.gpt-4.1-nano",
+        "capacity": {
+          "default": 10,
+          "maximum": 75000000
+        }
+      },
+      {
+        "name": "DataZoneBatch",
+        "usage_name": "OpenAI.DataZoneBatch.gpt-4.1-nano",
+        "capacity": {
+          "default": 10,
+          "maximum": 75000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "gpt-5-mini",
+      "version": "2025-08-07",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "OpenAI.GlobalStandard.gpt-5-mini",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "DataZoneProvisionedManaged",
+        "usage_name": "OpenAI.DataZoneProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 100000
+        }
+      },
+      {
+        "name": "GlobalProvisionedManaged",
+        "usage_name": "OpenAI.GlobalProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 30000
+        }
+      },
+      {
+        "name": "DataZoneStandard",
+        "usage_name": "OpenAI.DataZoneStandard.gpt-5-mini",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "gpt-5-nano",
+      "version": "2025-08-07",
+      "format": "OpenAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "OpenAI.GlobalStandard.gpt-5-nano",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "DataZoneStandard",
+        "usage_name": "OpenAI.DataZoneStandard.gpt-5-nano",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "AI21-Jamba-1.5-Large",
+      "version": "1",
+      "format": "AI21 Labs",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "AI21-Jamba-1.5-Mini",
+      "version": "1",
+      "format": "AI21 Labs",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "AI21-Jamba-Instruct",
+      "version": "1",
+      "format": "AI21 Labs",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "qwen3-32b",
+      "version": "1",
+      "format": "Alibaba",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.Qwen3-32B-finetune",
+        "capacity": {
+          "default": 50,
+          "maximum": 1000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Codestral-2501",
+      "version": "2",
+      "format": "Mistral AI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "cohere-command-a",
+      "version": "1",
+      "format": "Cohere",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.Cohere-Command-A",
+        "capacity": {
+          "default": 100,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Cohere-command-r",
+      "version": "1",
+      "format": "Cohere",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Cohere-command-r-08-2024",
+      "version": "1",
+      "format": "Cohere",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Cohere-command-r-plus",
+      "version": "1",
+      "format": "Cohere",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Cohere-command-r-plus-08-2024",
+      "version": "1",
+      "format": "Cohere",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Cohere-embed-v3-english",
+      "version": "1",
+      "format": "Cohere",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Cohere-embed-v3-multilingual",
+      "version": "1",
+      "format": "Cohere",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "DeepSeek-R1",
+      "version": "1",
+      "format": "DeepSeek",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.DeepSeek-R1",
+        "capacity": {
+          "default": 5000,
+          "maximum": 5000
+        }
+      },
+      {
+        "name": "GlobalProvisionedManaged",
+        "usage_name": "OpenAI.GlobalProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 3000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "DeepSeek-R1-0528",
+      "version": "1",
+      "format": "DeepSeek",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.DeepSeek-R1-0528",
+        "capacity": {
+          "default": 5000,
+          "maximum": 5000
+        }
+      },
+      {
+        "name": "GlobalProvisionedManaged",
+        "usage_name": "OpenAI.GlobalProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 3000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "DeepSeek-V3",
+      "version": "1",
+      "format": "DeepSeek",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "DeepSeek-V3-0324",
+      "version": "1",
+      "format": "DeepSeek",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.DeepSeek-V3-0324",
+        "capacity": {
+          "default": 5000,
+          "maximum": 5000
+        }
+      },
+      {
+        "name": "GlobalProvisionedManaged",
+        "usage_name": "OpenAI.GlobalProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 3000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "DeepSeek-V3.1",
+      "version": "1",
+      "format": "DeepSeek",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.DeepSeek-V3.1",
+        "capacity": {
+          "default": 5000,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "embed-v-4-0",
+      "version": "1",
+      "format": "Cohere",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.Embed-V-4-0",
+        "capacity": {
+          "default": 15000,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "jais-30b-chat",
+      "version": "1",
+      "format": "Core42",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "jais-30b-chat",
+      "version": "2",
+      "format": "Core42",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "jais-30b-chat",
+      "version": "3",
+      "format": "Core42",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Llama-3.2-11B-Vision-Instruct",
+      "version": "1",
+      "format": "Meta",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Llama-3.2-11B-Vision-Instruct",
+      "version": "2",
+      "format": "Meta",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Llama-3.2-90B-Vision-Instruct",
+      "version": "1",
+      "format": "Meta",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Llama-3.2-90B-Vision-Instruct",
+      "version": "2",
+      "format": "Meta",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Llama-3.2-90B-Vision-Instruct",
+      "version": "3",
+      "format": "Meta",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Llama-3.3-70B-Instruct",
+      "version": "1",
+      "format": "Meta",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Llama-3.3-70B-Instruct",
+      "version": "2",
+      "format": "Meta",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Llama-3.3-70B-Instruct",
+      "version": "3",
+      "format": "Meta",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Llama-3.3-70B-Instruct",
+      "version": "4",
+      "format": "Meta",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Llama-3.3-70B-Instruct",
+      "version": "5",
+      "format": "Meta",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.Llama-3.3-70B-Instruct",
+        "capacity": {
+          "default": 10,
+          "maximum": 10000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "MAI-DS-R1",
+      "version": "1",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MAI-DS-R1",
+        "capacity": {
+          "default": 5000,
+          "maximum": 5000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Meta-Llama-3-70B-Instruct",
+      "version": "6",
+      "format": "Meta",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Meta-Llama-3-70B-Instruct",
+      "version": "7",
+      "format": "Meta",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Meta-Llama-3-70B-Instruct",
+      "version": "8",
+      "format": "Meta",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Meta-Llama-3-70B-Instruct",
+      "version": "9",
+      "format": "Meta",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Meta-Llama-3-8B-Instruct",
+      "version": "6",
+      "format": "Meta",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Meta-Llama-3-8B-Instruct",
+      "version": "7",
+      "format": "Meta",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Meta-Llama-3-8B-Instruct",
+      "version": "8",
+      "format": "Meta",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Meta-Llama-3-8B-Instruct",
+      "version": "9",
+      "format": "Meta",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Meta-Llama-3.1-405B-Instruct",
+      "version": "1",
+      "format": "Meta",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Meta-Llama-3.1-70B-Instruct",
+      "version": "1",
+      "format": "Meta",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Meta-Llama-3.1-70B-Instruct",
+      "version": "2",
+      "format": "Meta",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Meta-Llama-3.1-70B-Instruct",
+      "version": "3",
+      "format": "Meta",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Meta-Llama-3.1-70B-Instruct",
+      "version": "4",
+      "format": "Meta",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Meta-Llama-3.1-8B-Instruct",
+      "version": "1",
+      "format": "Meta",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Meta-Llama-3.1-8B-Instruct",
+      "version": "2",
+      "format": "Meta",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Meta-Llama-3.1-8B-Instruct",
+      "version": "3",
+      "format": "Meta",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Meta-Llama-3.1-8B-Instruct",
+      "version": "4",
+      "format": "Meta",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Meta-Llama-3.1-8B-Instruct",
+      "version": "5",
+      "format": "Meta",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Ministral-3B",
+      "version": "1",
+      "format": "Mistral AI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      },
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.Ministral-3B-finetune",
+        "capacity": {
+          "default": 50,
+          "maximum": 1000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Mistral-large",
+      "version": "1",
+      "format": "Mistral AI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Mistral-large-2407",
+      "version": "1",
+      "format": "Mistral AI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Mistral-Large-2411",
+      "version": "2",
+      "format": "Mistral AI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Mistral-Nemo",
+      "version": "1",
+      "format": "Mistral AI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Mistral-small",
+      "version": "1",
+      "format": "Mistral AI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "mistral-small-2503",
+      "version": "1",
+      "format": "Mistral AI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Mistral-Large-3",
+      "version": "1",
+      "format": "Mistral AI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.Mistral-Large-3",
+        "capacity": {
+          "default": 5000,
+          "maximum": 100000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-3-medium-128k-instruct",
+      "version": "3",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-3-medium-128k-instruct",
+      "version": "4",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-3-medium-128k-instruct",
+      "version": "5",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-3-medium-128k-instruct",
+      "version": "6",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-3-medium-128k-instruct",
+      "version": "7",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-3-medium-4k-instruct",
+      "version": "3",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-3-medium-4k-instruct",
+      "version": "4",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-3-medium-4k-instruct",
+      "version": "5",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-3-medium-4k-instruct",
+      "version": "6",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-3-mini-128k-instruct",
+      "version": "10",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-3-mini-128k-instruct",
+      "version": "11",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-3-mini-128k-instruct",
+      "version": "12",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-3-mini-128k-instruct",
+      "version": "13",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-3-mini-4k-instruct",
+      "version": "10",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-3-mini-4k-instruct",
+      "version": "11",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-3-mini-4k-instruct",
+      "version": "13",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-3-mini-4k-instruct",
+      "version": "14",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-3-mini-4k-instruct",
+      "version": "15",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-3-small-128k-instruct",
+      "version": "3",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-3-small-128k-instruct",
+      "version": "4",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-3-small-128k-instruct",
+      "version": "5",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-3-small-8k-instruct",
+      "version": "3",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-3-small-8k-instruct",
+      "version": "4",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-3-small-8k-instruct",
+      "version": "5",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-3.5-mini-instruct",
+      "version": "1",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-3.5-mini-instruct",
+      "version": "2",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-3.5-mini-instruct",
+      "version": "3",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-3.5-mini-instruct",
+      "version": "4",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-3.5-mini-instruct",
+      "version": "6",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-3.5-MoE-instruct",
+      "version": "2",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-3.5-MoE-instruct",
+      "version": "3",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-3.5-MoE-instruct",
+      "version": "4",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-3.5-MoE-instruct",
+      "version": "5",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-3.5-vision-instruct",
+      "version": "1",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-3.5-vision-instruct",
+      "version": "2",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-4",
+      "version": "2",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-4",
+      "version": "3",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-4",
+      "version": "4",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-4",
+      "version": "5",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-4",
+      "version": "6",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-4",
+      "version": "7",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-4-mini-instruct",
+      "version": "1",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-4-multimodal-instruct",
+      "version": "1",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-4-reasoning",
+      "version": "1",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-4-mini-reasoning",
+      "version": "1",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+      "version": "1",
+      "format": "Meta",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.Llama-4-Maverick-17B-128E-Instruct-FP8",
+        "capacity": {
+          "default": 10,
+          "maximum": 10000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Llama-4-Scout-17B-16E-Instruct",
+      "version": "1",
+      "format": "Meta",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "mistral-medium-2505",
+      "version": "1",
+      "format": "Mistral AI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "mistral-document-ai-2505",
+      "version": "1",
+      "format": "Mistral AI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.mistral-document-ai-2505",
+        "capacity": {
+          "default": 1,
+          "maximum": 1000
+        }
+      },
+      {
+        "name": "DataZoneStandard",
+        "usage_name": "AIServices.DataZoneStandard.mistral-document-ai-2505",
+        "capacity": {
+          "default": 1,
+          "maximum": 1000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "grok-3",
+      "version": "1",
+      "format": "xAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.grok-3",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "DataZoneStandard",
+        "usage_name": "AIServices.DataZoneStandard.grok-3",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "grok-3-mini",
+      "version": "1",
+      "format": "xAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.grok-3-mini",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "DataZoneStandard",
+        "usage_name": "AIServices.DataZoneStandard.grok-3-mini",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "FLUX-1.1-pro",
+      "version": "1",
+      "format": "Black Forest Labs",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.FLUX-1.1-pro",
+        "capacity": {
+          "default": 1,
+          "maximum": 1000
+        }
+      },
+      {
+        "name": "DataZoneStandard",
+        "usage_name": "AIServices.DataZoneStandard.FLUX-1.1-pro",
+        "capacity": {
+          "default": 1,
+          "maximum": 1000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "FLUX.1-Kontext-pro",
+      "version": "1",
+      "format": "Black Forest Labs",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.FLUX.1-Kontext-pro",
+        "capacity": {
+          "default": 1,
+          "maximum": 1000
+        }
+      },
+      {
+        "name": "DataZoneStandard",
+        "usage_name": "AIServices.DataZoneStandard.FLUX.1-Kontext-pro",
+        "capacity": {
+          "default": 1,
+          "maximum": 1000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "grok-4-fast-reasoning",
+      "version": "1",
+      "format": "xAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.grok-4-fast-reasoning",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "DataZoneStandard",
+        "usage_name": "AIServices.DataZoneStandard.grok-4-fast-reasoning",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "grok-4-fast-non-reasoning",
+      "version": "1",
+      "format": "xAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.grok-4-fast-non-reasoning",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "DataZoneStandard",
+        "usage_name": "AIServices.DataZoneStandard.grok-4-fast-non-reasoning",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "gpt-oss-120b",
+      "version": "1",
+      "format": "OpenAI-OSS",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.gpt-oss-120b",
+        "capacity": {
+          "default": 500,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Kimi-K2-Thinking",
+      "version": "1",
+      "format": "MoonshotAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.Kimi-K2-Thinking",
+        "capacity": {
+          "default": 500,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Cohere-rerank-v4.0-pro",
+      "version": "1",
+      "format": "Cohere",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.Cohere-Rerank-V4-Pro",
+        "capacity": {
+          "default": 500,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "Cohere-rerank-v4.0-fast",
+      "version": "1",
+      "format": "Cohere",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.Cohere-Rerank-V4-Fast",
+        "capacity": {
+          "default": 500,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "DeepSeek-V3.2-Speciale",
+      "version": "1",
+      "format": "DeepSeek",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.DeepSeek-V3.2-Speciale",
+        "capacity": {
+          "default": 5000,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "AIServices",
+    "sku_name": "S0",
+    "model": {
+      "name": "DeepSeek-V3.2",
+      "version": "1",
+      "format": "DeepSeek",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.DeepSeek-V3.2",
+        "capacity": {
+          "default": 5000,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "AI21-Jamba-1.5-Large",
+      "version": "1",
+      "format": "AI21 Labs",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "AI21-Jamba-1.5-Mini",
+      "version": "1",
+      "format": "AI21 Labs",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "AI21-Jamba-Instruct",
+      "version": "1",
+      "format": "AI21 Labs",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "qwen3-32b",
+      "version": "1",
+      "format": "Alibaba",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.Qwen3-32B-finetune",
+        "capacity": {
+          "default": 50,
+          "maximum": 1000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Codestral-2501",
+      "version": "2",
+      "format": "Mistral AI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "cohere-command-a",
+      "version": "1",
+      "format": "Cohere",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.Cohere-Command-A",
+        "capacity": {
+          "default": 100,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Cohere-command-r",
+      "version": "1",
+      "format": "Cohere",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Cohere-command-r-08-2024",
+      "version": "1",
+      "format": "Cohere",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Cohere-command-r-plus",
+      "version": "1",
+      "format": "Cohere",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Cohere-command-r-plus-08-2024",
+      "version": "1",
+      "format": "Cohere",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Cohere-embed-v3-english",
+      "version": "1",
+      "format": "Cohere",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Cohere-embed-v3-multilingual",
+      "version": "1",
+      "format": "Cohere",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "DeepSeek-R1",
+      "version": "1",
+      "format": "DeepSeek",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.DeepSeek-R1",
+        "capacity": {
+          "default": 5000,
+          "maximum": 5000
+        }
+      },
+      {
+        "name": "GlobalProvisionedManaged",
+        "usage_name": "OpenAI.GlobalProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 3000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "DeepSeek-R1-0528",
+      "version": "1",
+      "format": "DeepSeek",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.DeepSeek-R1-0528",
+        "capacity": {
+          "default": 5000,
+          "maximum": 5000
+        }
+      },
+      {
+        "name": "GlobalProvisionedManaged",
+        "usage_name": "OpenAI.GlobalProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 3000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "DeepSeek-V3",
+      "version": "1",
+      "format": "DeepSeek",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "DeepSeek-V3-0324",
+      "version": "1",
+      "format": "DeepSeek",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.DeepSeek-V3-0324",
+        "capacity": {
+          "default": 5000,
+          "maximum": 5000
+        }
+      },
+      {
+        "name": "GlobalProvisionedManaged",
+        "usage_name": "OpenAI.GlobalProvisionedManaged",
+        "capacity": {
+          "default": null,
+          "maximum": 3000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "DeepSeek-V3.1",
+      "version": "1",
+      "format": "DeepSeek",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.DeepSeek-V3.1",
+        "capacity": {
+          "default": 5000,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "embed-v-4-0",
+      "version": "1",
+      "format": "Cohere",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.Embed-V-4-0",
+        "capacity": {
+          "default": 15000,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "jais-30b-chat",
+      "version": "1",
+      "format": "Core42",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "jais-30b-chat",
+      "version": "2",
+      "format": "Core42",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "jais-30b-chat",
+      "version": "3",
+      "format": "Core42",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Llama-3.2-11B-Vision-Instruct",
+      "version": "1",
+      "format": "Meta",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Llama-3.2-11B-Vision-Instruct",
+      "version": "2",
+      "format": "Meta",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Llama-3.2-90B-Vision-Instruct",
+      "version": "1",
+      "format": "Meta",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Llama-3.2-90B-Vision-Instruct",
+      "version": "2",
+      "format": "Meta",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Llama-3.2-90B-Vision-Instruct",
+      "version": "3",
+      "format": "Meta",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Llama-3.3-70B-Instruct",
+      "version": "1",
+      "format": "Meta",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Llama-3.3-70B-Instruct",
+      "version": "2",
+      "format": "Meta",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Llama-3.3-70B-Instruct",
+      "version": "3",
+      "format": "Meta",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Llama-3.3-70B-Instruct",
+      "version": "4",
+      "format": "Meta",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Llama-3.3-70B-Instruct",
+      "version": "5",
+      "format": "Meta",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.Llama-3.3-70B-Instruct",
+        "capacity": {
+          "default": 10,
+          "maximum": 10000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "MAI-DS-R1",
+      "version": "1",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MAI-DS-R1",
+        "capacity": {
+          "default": 5000,
+          "maximum": 5000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Meta-Llama-3-70B-Instruct",
+      "version": "6",
+      "format": "Meta",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Meta-Llama-3-70B-Instruct",
+      "version": "7",
+      "format": "Meta",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Meta-Llama-3-70B-Instruct",
+      "version": "8",
+      "format": "Meta",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Meta-Llama-3-70B-Instruct",
+      "version": "9",
+      "format": "Meta",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Meta-Llama-3-8B-Instruct",
+      "version": "6",
+      "format": "Meta",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Meta-Llama-3-8B-Instruct",
+      "version": "7",
+      "format": "Meta",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Meta-Llama-3-8B-Instruct",
+      "version": "8",
+      "format": "Meta",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Meta-Llama-3-8B-Instruct",
+      "version": "9",
+      "format": "Meta",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Meta-Llama-3.1-405B-Instruct",
+      "version": "1",
+      "format": "Meta",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Meta-Llama-3.1-70B-Instruct",
+      "version": "1",
+      "format": "Meta",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Meta-Llama-3.1-70B-Instruct",
+      "version": "2",
+      "format": "Meta",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Meta-Llama-3.1-70B-Instruct",
+      "version": "3",
+      "format": "Meta",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Meta-Llama-3.1-70B-Instruct",
+      "version": "4",
+      "format": "Meta",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Meta-Llama-3.1-8B-Instruct",
+      "version": "1",
+      "format": "Meta",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Meta-Llama-3.1-8B-Instruct",
+      "version": "2",
+      "format": "Meta",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Meta-Llama-3.1-8B-Instruct",
+      "version": "3",
+      "format": "Meta",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Meta-Llama-3.1-8B-Instruct",
+      "version": "4",
+      "format": "Meta",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Meta-Llama-3.1-8B-Instruct",
+      "version": "5",
+      "format": "Meta",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Ministral-3B",
+      "version": "1",
+      "format": "Mistral AI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      },
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.Ministral-3B-finetune",
+        "capacity": {
+          "default": 50,
+          "maximum": 1000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Mistral-large",
+      "version": "1",
+      "format": "Mistral AI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Mistral-large-2407",
+      "version": "1",
+      "format": "Mistral AI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Mistral-Large-2411",
+      "version": "2",
+      "format": "Mistral AI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Mistral-Nemo",
+      "version": "1",
+      "format": "Mistral AI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Mistral-small",
+      "version": "1",
+      "format": "Mistral AI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "mistral-small-2503",
+      "version": "1",
+      "format": "Mistral AI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Mistral-Large-3",
+      "version": "1",
+      "format": "Mistral AI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.Mistral-Large-3",
+        "capacity": {
+          "default": 5000,
+          "maximum": 100000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-3-medium-128k-instruct",
+      "version": "3",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-3-medium-128k-instruct",
+      "version": "4",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-3-medium-128k-instruct",
+      "version": "5",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-3-medium-128k-instruct",
+      "version": "6",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-3-medium-128k-instruct",
+      "version": "7",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-3-medium-4k-instruct",
+      "version": "3",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-3-medium-4k-instruct",
+      "version": "4",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-3-medium-4k-instruct",
+      "version": "5",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-3-medium-4k-instruct",
+      "version": "6",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-3-mini-128k-instruct",
+      "version": "10",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-3-mini-128k-instruct",
+      "version": "11",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-3-mini-128k-instruct",
+      "version": "12",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-3-mini-128k-instruct",
+      "version": "13",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-3-mini-4k-instruct",
+      "version": "10",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-3-mini-4k-instruct",
+      "version": "11",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-3-mini-4k-instruct",
+      "version": "13",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-3-mini-4k-instruct",
+      "version": "14",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-3-mini-4k-instruct",
+      "version": "15",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-3-small-128k-instruct",
+      "version": "3",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-3-small-128k-instruct",
+      "version": "4",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-3-small-128k-instruct",
+      "version": "5",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-3-small-8k-instruct",
+      "version": "3",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-3-small-8k-instruct",
+      "version": "4",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-3-small-8k-instruct",
+      "version": "5",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-3.5-mini-instruct",
+      "version": "1",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-3.5-mini-instruct",
+      "version": "2",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-3.5-mini-instruct",
+      "version": "3",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-3.5-mini-instruct",
+      "version": "4",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-3.5-mini-instruct",
+      "version": "6",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-3.5-MoE-instruct",
+      "version": "2",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-3.5-MoE-instruct",
+      "version": "3",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-3.5-MoE-instruct",
+      "version": "4",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-3.5-MoE-instruct",
+      "version": "5",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-3.5-vision-instruct",
+      "version": "1",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-3.5-vision-instruct",
+      "version": "2",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-4",
+      "version": "2",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-4",
+      "version": "3",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-4",
+      "version": "4",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-4",
+      "version": "5",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-4",
+      "version": "6",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-4",
+      "version": "7",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-4-mini-instruct",
+      "version": "1",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-4-multimodal-instruct",
+      "version": "1",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-4-reasoning",
+      "version": "1",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Phi-4-mini-reasoning",
+      "version": "1",
+      "format": "Microsoft",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+      "version": "1",
+      "format": "Meta",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.Llama-4-Maverick-17B-128E-Instruct-FP8",
+        "capacity": {
+          "default": 10,
+          "maximum": 10000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Llama-4-Scout-17B-16E-Instruct",
+      "version": "1",
+      "format": "Meta",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "mistral-medium-2505",
+      "version": "1",
+      "format": "Mistral AI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.MaaS",
+        "capacity": {
+          "default": 1,
+          "maximum": 1
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "mistral-document-ai-2505",
+      "version": "1",
+      "format": "Mistral AI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.mistral-document-ai-2505",
+        "capacity": {
+          "default": 1,
+          "maximum": 1000
+        }
+      },
+      {
+        "name": "DataZoneStandard",
+        "usage_name": "AIServices.DataZoneStandard.mistral-document-ai-2505",
+        "capacity": {
+          "default": 1,
+          "maximum": 1000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "grok-3",
+      "version": "1",
+      "format": "xAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.grok-3",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "DataZoneStandard",
+        "usage_name": "AIServices.DataZoneStandard.grok-3",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "grok-3-mini",
+      "version": "1",
+      "format": "xAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.grok-3-mini",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "DataZoneStandard",
+        "usage_name": "AIServices.DataZoneStandard.grok-3-mini",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "FLUX-1.1-pro",
+      "version": "1",
+      "format": "Black Forest Labs",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.FLUX-1.1-pro",
+        "capacity": {
+          "default": 1,
+          "maximum": 1000
+        }
+      },
+      {
+        "name": "DataZoneStandard",
+        "usage_name": "AIServices.DataZoneStandard.FLUX-1.1-pro",
+        "capacity": {
+          "default": 1,
+          "maximum": 1000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "FLUX.1-Kontext-pro",
+      "version": "1",
+      "format": "Black Forest Labs",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.FLUX.1-Kontext-pro",
+        "capacity": {
+          "default": 1,
+          "maximum": 1000
+        }
+      },
+      {
+        "name": "DataZoneStandard",
+        "usage_name": "AIServices.DataZoneStandard.FLUX.1-Kontext-pro",
+        "capacity": {
+          "default": 1,
+          "maximum": 1000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "grok-4-fast-reasoning",
+      "version": "1",
+      "format": "xAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.grok-4-fast-reasoning",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "DataZoneStandard",
+        "usage_name": "AIServices.DataZoneStandard.grok-4-fast-reasoning",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "grok-4-fast-non-reasoning",
+      "version": "1",
+      "format": "xAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.grok-4-fast-non-reasoning",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      },
+      {
+        "name": "DataZoneStandard",
+        "usage_name": "AIServices.DataZoneStandard.grok-4-fast-non-reasoning",
+        "capacity": {
+          "default": 10,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "gpt-oss-120b",
+      "version": "1",
+      "format": "OpenAI-OSS",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.gpt-oss-120b",
+        "capacity": {
+          "default": 500,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Kimi-K2-Thinking",
+      "version": "1",
+      "format": "MoonshotAI",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.Kimi-K2-Thinking",
+        "capacity": {
+          "default": 500,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Cohere-rerank-v4.0-pro",
+      "version": "1",
+      "format": "Cohere",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.Cohere-Rerank-V4-Pro",
+        "capacity": {
+          "default": 500,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "Cohere-rerank-v4.0-fast",
+      "version": "1",
+      "format": "Cohere",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.Cohere-Rerank-V4-Fast",
+        "capacity": {
+          "default": 500,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "DeepSeek-V3.2-Speciale",
+      "version": "1",
+      "format": "DeepSeek",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.DeepSeek-V3.2-Speciale",
+        "capacity": {
+          "default": 5000,
+          "maximum": 1000000
+        }
+      }
+    ]
+  },
+  {
+    "kind": "MaaS",
+    "sku_name": "S0",
+    "model": {
+      "name": "DeepSeek-V3.2",
+      "version": "1",
+      "format": "DeepSeek",
+      "publisher": null
+    },
+    "skus": [
+      {
+        "name": "GlobalStandard",
+        "usage_name": "AIServices.GlobalStandard.DeepSeek-V3.2",
+        "capacity": {
+          "default": 5000,
+          "maximum": 1000000
+        }
+      }
+    ]
+  }
+]

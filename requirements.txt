@@ -1,0 +1,13 @@
+# Azure AI Model Manager Dependencies
+
+# GUI Framework
+PyQt6>=6.6.0
+
+# Azure SDK
+azure-identity>=1.15.0
+azure-mgmt-cognitiveservices>=13.5.0
+azure-mgmt-apimanagement>=4.0.0
+azure-core>=1.30.0
+
+# HTTP Client
+requests>=2.31.0

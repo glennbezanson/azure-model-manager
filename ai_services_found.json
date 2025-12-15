@@ -1,0 +1,308 @@
+{
+  "Azure Machine Learning | Managed Model Hosting Service": [
+    {
+      "serviceName": "Azure Machine Learning",
+      "productName": "Managed Model Hosting Service",
+      "meterName": "Llama-4-Scout-17B-16E-In Tokens",
+      "retailPrice": 0.00016,
+      "unitOfMeasure": "1K",
+      "armRegionName": "eastus2"
+    }
+  ],
+  "Cognitive Services | Azure OpenAI": [
+    {
+      "serviceName": "Cognitive Services",
+      "productName": "Azure OpenAI",
+      "meterName": "gpt-4.1-ft mdl grdr inpt Tokens",
+      "retailPrice": 0.0022,
+      "unitOfMeasure": "1K",
+      "armRegionName": "northcentralus"
+    },
+    {
+      "serviceName": "Cognitive Services",
+      "productName": "Azure OpenAI",
+      "meterName": "gpt 4.1 Inp regnl Tokens",
+      "retailPrice": 0.0022,
+      "unitOfMeasure": "1K",
+      "armRegionName": "eastus"
+    },
+    {
+      "serviceName": "Cognitive Services",
+      "productName": "Azure OpenAI",
+      "meterName": "Code-Interpreter-global Session",
+      "retailPrice": 0.03,
+      "unitOfMeasure": "1",
+      "armRegionName": "eastus"
+    }
+  ],
+  "Cognitive Services | Azure OpenAI GPT5": [
+    {
+      "serviceName": "Cognitive Services",
+      "productName": "Azure OpenAI GPT5",
+      "meterName": "5.1 codex opt Gl 1M Tokens",
+      "retailPrice": 10.0,
+      "unitOfMeasure": "1M",
+      "armRegionName": "koreacentral"
+    },
+    {
+      "serviceName": "Cognitive Services",
+      "productName": "Azure OpenAI GPT5",
+      "meterName": "GPT 5 outpt Glbl 1M Tokens",
+      "retailPrice": 10.0,
+      "unitOfMeasure": "1M",
+      "armRegionName": "spaincentral"
+    },
+    {
+      "serviceName": "Cognitive Services",
+      "productName": "Azure OpenAI GPT5",
+      "meterName": "5.1 codex max inp Dz 1M Tokens",
+      "retailPrice": 1.375,
+      "unitOfMeasure": "1M",
+      "armRegionName": "germanywestcentral"
+    }
+  ],
+  "Foundry Models | Azure Llama Models": [
+    {
+      "serviceName": "Foundry Models",
+      "productName": "Azure Llama Models",
+      "meterName": "3.3 70b FT Tokens",
+      "retailPrice": 0.0045,
+      "unitOfMeasure": "1K",
+      "armRegionName": "westeurope"
+    },
+    {
+      "serviceName": "Foundry Models",
+      "productName": "Azure Llama Models",
+      "meterName": "Llama3.3-Out-FT Tokens",
+      "retailPrice": 0.00071,
+      "unitOfMeasure": "1K",
+      "armRegionName": "northeurope"
+    },
+    {
+      "serviceName": "Foundry Models",
+      "productName": "Azure Llama Models",
+      "meterName": "3.3 70b FT Deployment Hosting Unit",
+      "retailPrice": 0.3,
+      "unitOfMeasure": "1/Hour",
+      "armRegionName": "uaenorth"
+    }
+  ],
+  "Cognitive Services | Azure OpenAI Media": [
+    {
+      "serviceName": "Cognitive Services",
+      "productName": "Azure OpenAI Media",
+      "meterName": "gpt rt aud 0828 cchd Inp glbl Tokens",
+      "retailPrice": 0.0004,
+      "unitOfMeasure": "1K",
+      "armRegionName": "francecentral"
+    },
+    {
+      "serviceName": "Cognitive Services",
+      "productName": "Azure OpenAI Media",
+      "meterName": "gpt rt aud 0828 cchd Inp DZn Tokens",
+      "retailPrice": 0.00044,
+      "unitOfMeasure": "1K",
+      "armRegionName": "westeurope"
+    },
+    {
+      "serviceName": "Cognitive Services",
+      "productName": "Azure OpenAI Media",
+      "meterName": "gpt rt aud 0828 Inp glbl Tokens",
+      "retailPrice": 0.032,
+      "unitOfMeasure": "1K",
+      "armRegionName": "switzerlandnorth"
+    }
+  ],
+  "Foundry Models | Azure OpenAI Reasoning": [
+    {
+      "serviceName": "Foundry Models",
+      "productName": "Azure OpenAI Reasoning",
+      "meterName": "o4-mini 0416 Batch Outp glbl Tokens",
+      "retailPrice": 0.0022,
+      "unitOfMeasure": "1K",
+      "armRegionName": "northcentralus"
+    },
+    {
+      "serviceName": "Foundry Models",
+      "productName": "Azure OpenAI Reasoning",
+      "meterName": "o3-deep research 0626-inp-cchd-glbl 1M Tokens",
+      "retailPrice": 2.5,
+      "unitOfMeasure": "1M",
+      "armRegionName": "australiaeast"
+    },
+    {
+      "serviceName": "Foundry Models",
+      "productName": "Azure OpenAI Reasoning",
+      "meterName": "o4-mini-ft model grader input Tokens",
+      "retailPrice": 0.00121,
+      "unitOfMeasure": "1K",
+      "armRegionName": "francecentral"
+    }
+  ],
+  "Foundry Models | Azure Mistral Models": [
+    {
+      "serviceName": "Foundry Models",
+      "productName": "Azure Mistral Models",
+      "meterName": "Codestral Outp glbl Tokens",
+      "retailPrice": 0.0009,
+      "unitOfMeasure": "1K",
+      "armRegionName": "westus2"
+    },
+    {
+      "serviceName": "Foundry Models",
+      "productName": "Azure Mistral Models",
+      "meterName": "Codestral Inp glbl Tokens",
+      "retailPrice": 0.0003,
+      "unitOfMeasure": "1K",
+      "armRegionName": "southafricanorth"
+    },
+    {
+      "serviceName": "Foundry Models",
+      "productName": "Azure Mistral Models",
+      "meterName": "Large 3 Outp glbl Tokens",
+      "retailPrice": 0.0015,
+      "unitOfMeasure": "1K",
+      "armRegionName": "koreacentral"
+    }
+  ],
+  "Foundry Models | Azure OpenAI GPT5": [
+    {
+      "serviceName": "Foundry Models",
+      "productName": "Azure OpenAI GPT5",
+      "meterName": "GPT 5 Batch outpt Glbl 1M Tokens",
+      "retailPrice": 5.0,
+      "unitOfMeasure": "1M",
+      "armRegionName": "westeurope"
+    },
+    {
+      "serviceName": "Foundry Models",
+      "productName": "Azure OpenAI GPT5",
+      "meterName": "5.1 codex max cd inp Gl 1M Tokens",
+      "retailPrice": 0.125,
+      "unitOfMeasure": "1M",
+      "armRegionName": "southcentralus"
+    },
+    {
+      "serviceName": "Foundry Models",
+      "productName": "Azure OpenAI GPT5",
+      "meterName": "GPT 5.2 Batch inp Gl 1M Tokens",
+      "retailPrice": 0.875,
+      "unitOfMeasure": "1M",
+      "armRegionName": "westus"
+    }
+  ],
+  "Foundry Models | Azure OpenAI Media": [
+    {
+      "serviceName": "Foundry Models",
+      "productName": "Azure OpenAI Media",
+      "meterName": "gpt rt aud 0828 Outp DZone Tokens",
+      "retailPrice": 0.0704,
+      "unitOfMeasure": "1K",
+      "armRegionName": "northcentralus"
+    },
+    {
+      "serviceName": "Foundry Models",
+      "productName": "Azure OpenAI Media",
+      "meterName": "gpt img 1 mini inp txt glbl Tokens",
+      "retailPrice": 0.002,
+      "unitOfMeasure": "1K",
+      "armRegionName": "eastus2"
+    },
+    {
+      "serviceName": "Foundry Models",
+      "productName": "Azure OpenAI Media",
+      "meterName": "Sora 2 pro high res glbl Second",
+      "retailPrice": 0.5,
+      "unitOfMeasure": "1",
+      "armRegionName": "australiaeast"
+    }
+  ],
+  "Foundry Models | Azure OpenAI PP GPT4s": [
+    {
+      "serviceName": "Foundry Models",
+      "productName": "Azure OpenAI PP GPT4s",
+      "meterName": "gpt 41 mn cd pp inp glb Tokens",
+      "retailPrice": 0.000175,
+      "unitOfMeasure": "1K",
+      "armRegionName": "switzerlandnorth"
+    },
+    {
+      "serviceName": "Foundry Models",
+      "productName": "Azure OpenAI PP GPT4s",
+      "meterName": "gpt 41 pp cd inp glb Tokens",
+      "retailPrice": 0.000875,
+      "unitOfMeasure": "1K",
+      "armRegionName": "japaneast"
+    },
+    {
+      "serviceName": "Foundry Models",
+      "productName": "Azure OpenAI PP GPT4s",
+      "meterName": "gpt 41 mn pp out glb Tokens",
+      "retailPrice": 0.0028,
+      "unitOfMeasure": "1K",
+      "armRegionName": "canadaeast"
+    }
+  ],
+  "Foundry Models | Azure OpenAI OSS Models": [
+    {
+      "serviceName": "Foundry Models",
+      "productName": "Azure OpenAI OSS Models",
+      "meterName": "GPT-OSS-20b-IN-FT Tokens",
+      "retailPrice": 7e-05,
+      "unitOfMeasure": "1K",
+      "armRegionName": "polandcentral"
+    },
+    {
+      "serviceName": "Foundry Models",
+      "productName": "Azure OpenAI OSS Models",
+      "meterName": "gpt-oss-120B Outp glbl Tokens",
+      "retailPrice": 0.0006,
+      "unitOfMeasure": "1K",
+      "armRegionName": "francecentral"
+    },
+    {
+      "serviceName": "Foundry Models",
+      "productName": "Azure OpenAI OSS Models",
+      "meterName": "OSS-20b FT Tokens",
+      "retailPrice": 0.0036,
+      "unitOfMeasure": "1K",
+      "armRegionName": "eastus"
+    }
+  ],
+  "Foundry Models | Azure AI Foundry Provisioned Throughput Reservation": [
+    {
+      "serviceName": "Foundry Models",
+      "productName": "Azure AI Foundry Provisioned Throughput Reservation",
+      "meterName": "Provisioned Managed Regional Unit",
+      "retailPrice": 286.0,
+      "unitOfMeasure": "1/Hour",
+      "armRegionName": "southindia"
+    },
+    {
+      "serviceName": "Foundry Models",
+      "productName": "Azure AI Foundry Provisioned Throughput Reservation",
+      "meterName": "Provisioned Managed Regional Unit",
+      "retailPrice": 2916.0,
+      "unitOfMeasure": "1/Hour",
+      "armRegionName": "southindia"
+    },
+    {
+      "serviceName": "Foundry Models",
+      "productName": "Azure AI Foundry Provisioned Throughput Reservation",
+      "meterName": "Provisioned Managed Regional Unit",
+      "retailPrice": 315.0,
+      "unitOfMeasure": "1/Hour",
+      "armRegionName": "norwayeast"
+    }
+  ],
+  "Foundry Models | Azure OpenAI": [
+    {
+      "serviceName": "Foundry Models",
+      "productName": "Azure OpenAI",
+      "meterName": "Provisioned Throughput - Overage Unit",
+      "retailPrice": 2.5,
+      "unitOfMeasure": "1/Hour",
+      "armRegionName": "usgovvirginia"
+    }
+  ]
+}

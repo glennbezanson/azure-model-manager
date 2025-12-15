@@ -1,0 +1,58 @@
+{
+  "azure": {
+    "subscription_id": "your-subscription-id-here",
+    "resource_group": "your-resource-group",
+    "ai_services_account": "your-ai-services-account",
+    "apim_name": "your-apim-name",
+    "location": "eastus2"
+  },
+  "defaults": {
+    "capacity_tpm": 10000,
+    "content_filter": "Default"
+  },
+  "portal": {
+    "product_id": "your-product-id",
+    "auto_publish": false,
+    "endpoint_url": "https://your-apim-name.azure-api.net/openai"
+  },
+  "model_descriptions": {
+    "gpt-4o": "Most capable GPT-4 model with vision support, optimized for complex tasks",
+    "gpt-4o-mini": "Fast, cost-effective model for simple tasks and high-volume workloads",
+    "gpt-4o-realtime-preview": "Real-time audio/video processing with low latency responses",
+    "gpt-4.1": "Latest GPT-4 iteration with enhanced reasoning and instruction following",
+    "gpt-4-turbo": "High-performance GPT-4 with 128K context window",
+    "gpt-4": "Original GPT-4 model for complex reasoning tasks",
+    "gpt-4-32k": "GPT-4 with extended 32K token context window",
+    "gpt-35-turbo": "Fast, efficient model for chat and completions",
+    "gpt-35-turbo-16k": "GPT-3.5 Turbo with 16K context window",
+    "o1-preview": "Advanced reasoning model for complex problem-solving",
+    "o1-mini": "Compact reasoning model balancing capability and cost",
+    "o3-mini": "Efficient reasoning model for logical tasks",
+    "text-embedding-3-large": "High-dimensional embeddings for semantic search and RAG",
+    "text-embedding-3-small": "Compact embeddings for cost-sensitive applications",
+    "text-embedding-ada-002": "Legacy embedding model for text similarity",
+    "dall-e-3": "State-of-the-art image generation from text prompts",
+    "dall-e-2": "Image generation and editing capabilities",
+    "whisper": "Speech-to-text transcription supporting 50+ languages",
+    "tts": "Text-to-speech synthesis with natural voices",
+    "tts-hd": "High-definition text-to-speech for premium quality",
+    "gpt-4-vision-preview": "GPT-4 with image understanding capabilities",
+    "claude-opus-4-5": "Anthropic Claude Opus 4.5 for complex analysis",
+    "claude-sonnet-4": "Anthropic Claude Sonnet for balanced performance",
+    "claude-3-5-sonnet": "Anthropic Claude 3.5 Sonnet",
+    "Llama-3.2-90B-Vision-Instruct": "Meta Llama 3.2 90B with vision support",
+    "Llama-3.2-11B-Vision-Instruct": "Meta Llama 3.2 11B vision model",
+    "Llama-3.1-405B-Instruct": "Meta Llama 3.1 flagship 405B model",
+    "Llama-3.1-70B-Instruct": "Meta Llama 3.1 70B for demanding tasks",
+    "Llama-3.1-8B-Instruct": "Meta Llama 3.1 8B efficient model",
+    "Mistral-large": "Mistral AI flagship model for enterprise use",
+    "Mistral-small": "Mistral AI compact model for cost efficiency",
+    "Cohere-command-r-plus": "Cohere Command R+ for RAG and enterprise",
+    "Cohere-command-r": "Cohere Command R for conversational AI",
+    "Cohere-embed-v3-english": "Cohere English embeddings",
+    "Cohere-embed-v3-multilingual": "Cohere multilingual embeddings",
+    "Phi-3-mini-4k-instruct": "Microsoft Phi-3 Mini compact model",
+    "Phi-3-medium-4k-instruct": "Microsoft Phi-3 Medium balanced model",
+    "jais-30b-chat": "Arabic-English bilingual LLM"
+  }
+}

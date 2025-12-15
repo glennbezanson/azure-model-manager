@@ -1,0 +1,1133 @@
+{
+  "generated_at": "2025-12-13T14:31:29.417364",
+  "method": "api_pattern_testing",
+  "total_discovered": 12,
+  "total_not_found": 56,
+  "discovered": {
+    "claude-opus-4-5": {
+      "offer_id": "anthropic.anthropic-claude-opus-4-5-offer",
+      "publisher": "anthropic",
+      "has_pricing": true,
+      "meter_count": null,
+      "pricing": {
+        "input_per_1k": 0.005,
+        "output_per_1k": 0.025,
+        "meters": [
+          {
+            "name": "paygo-inference-output-tokens",
+            "price": 0.025
+          },
+          {
+            "name": "paygo-inference-cache-write-tokens",
+            "price": 0.00625
+          },
+          {
+            "name": "paygo-inference-cache-hit-tokens",
+            "price": 0.0005
+          },
+          {
+            "name": "paygo-inference-cache-write-1h-tokens",
+            "price": 0.01
+          },
+          {
+            "name": "paygo-inference-input-tokens",
+            "price": 0.005
+          }
+        ]
+      },
+      "raw_pricing": {
+        "billingRegion": "us",
+        "skus": [
+          {
+            "id": "anthropic-claude-opus-4-5-plan",
+            "bigId": "DZH318Z0SR5H",
+            "skuId": "0001",
+            "offerType": 5,
+            "title": "anthropic-claude-opus-4-5-plan",
+            "handoffURL": "https://portal.azure.com/#create/anthropic.anthropic-claude-opus-4-5-offeranthropic-claude-opus-4-5-plan",
+            "description": "<span><b>Claude Opus 4.5: </b>Claude Opus 4.5 is Anthropic\u2019s most intelligent model, and an industry leader across coding, agents, computer use, and enterprise workflows. With a 200K token context window and 64K max output, Opus 4.5 is ideal for production code, sophisticated agents, office tasks, financial analysis, cybersecurity, and computer use. </span>",
+            "startingPrice": {
+              "value": 0,
+              "unit": "Month",
+              "billingPlan": null
+            },
+            "termPrices": [
+              {
+                "value": 0,
+                "unit": "Month",
+                "freeDurationDays": 0,
+                "availabilityId": "DZH318Z0BMPX",
+                "termId": "n7ja87drquhy",
+                "billingPlan": null,
+                "customMeter": [
+                  {
+                    "rate": 0.025,
+                    "unit": "per 1000 tokens",
+                    "title": "paygo-inference-output-tokens",
+                    "includedQuantity": "0",
+                    "availabilityId": "DZH318Z0BMPR"
+                  },
+                  {
+                    "rate": 0.00625,
+                    "unit": "per 1000 tokens",
+                    "title": "paygo-inference-cache-write-tokens",
+                    "includedQuantity": "0",
+                    "availabilityId": "DZH318Z0BMQ7"
+                  },
+                  {
+                    "rate": 0.0005,
+                    "unit": "per 1000 tokens",
+                    "title": "paygo-inference-cache-hit-tokens",
+                    "includedQuantity": "0",
+                    "availabilityId": "DZH318Z0BMGT"
+                  },
+                  {
+                    "rate": 0.01,
+                    "unit": "per 1000 tokens",
+                    "title": "paygo-inference-cache-write-1h-tokens",
+                    "includedQuantity": "0",
+                    "availabilityId": "DZH318Z0BMQ5"
+                  },
+                  {
+                    "rate": 0.005,
+                    "unit": "per 1000 tokens",
+                    "title": "paygo-inference-input-tokens",
+                    "includedQuantity": "0",
+                    "availabilityId": "DZH318Z0BMPN"
+                  }
+                ]
+              }
+            ],
+            "freeTrialDurationDays": 0,
+            "leadgenEnabled": false,
+            "azureInfraCostsExtra": false,
+            "isBYOL": false,
+            "priceVaries": false,
+            "isQuantifiable": false,
+            "minQuantity": null,
+            "maxQuantity": null,
+            "currencyCode": "USD",
+            "isPrivate": false,
+            "displayRank": 2147483647
+          }
+        ]
+      }
+    },
+    "claude-sonnet-4-5": {
+      "offer_id": "anthropic.anthropic-claude-sonnet-4-5-offer",
+      "publisher": "anthropic",
+      "has_pricing": true,
+      "meter_count": null,
+      "pricing": {
+        "input_per_1k": 0.006,
+        "output_per_1k": 0.015,
+        "meters": [
+          {
+            "name": "paygo-inference-cache-hit-tokens",
+            "price": 0.0003
+          },
+          {
+            "name": "paygo-inference-output-tokens",
+            "price": 0.015
+          },
+          {
+            "name": "paygo-inference-longctx-cache-hit-tokens",
+            "price": 0.0006
+          },
+          {
+            "name": "paygo-inference-longctx-input-tokens",
+            "price": 0.006
+          },
+          {
+            "name": "paygo-inference-cache-write-1h-tokens",
+            "price": 0.006
+          },
+          {
+            "name": "paygo-inference-cache-write-tokens",
+            "price": 0.00375
+          },
+          {
+            "name": "paygo-inference-longctx-cache-write-1h-tokens",
+            "price": 0.012
+          },
+          {
+            "name": "paygo-inference-input-tokens",
+            "price": 0.003
+          },
+          {
+            "name": "paygo-inference-longctx-cache-write-tokens",
+            "price": 0.0075
+          },
+          {
+            "name": "paygo-inference-longctx-output-tokens",
+            "price": 0.0225
+          }
+        ]
+      },
+      "raw_pricing": {
+        "billingRegion": "us",
+        "skus": [
+          {
+            "id": "anthropic-claude-sonnet-4-5-plan",
+            "bigId": "DZH318Z0SMKG",
+            "skuId": "0003",
+            "offerType": 5,
+            "title": "anthropic-claude-sonnet-4-5-plan",
+            "handoffURL": "https://portal.azure.com/#create/anthropic.anthropic-claude-sonnet-4-5-offeranthropic-claude-sonnet-4-5-plan",
+            "description": "Claude Sonnet 4.5 is Anthropic\u2019s most capable model to date for building real-world agents and handling complex, long-horizon tasks\u2013balancing the right speed and cost for high-volume use cases. With a context window of 200K tokens and max output of 64K tokens, Sonnet 4.5 excels in enterprise use cases like long-running agents, coding, cybersecurity, financial analysis, computer use, and research.",
+            "startingPrice": {
+              "value": 0,
+              "unit": "Month",
+              "billingPlan": null
+            },
+            "termPrices": [
+              {
+                "value": 0,
+                "unit": "Month",
+                "freeDurationDays": 0,
+                "availabilityId": "DZH318Z0BLQ7",
+                "termId": "n7ja87drquhy",
+                "billingPlan": null,
+                "customMeter": [
+                  {
+                    "rate": 0.0003,
+                    "unit": "per 1000 tokens",
+                    "title": "paygo-inference-cache-hit-tokens",
+                    "includedQuantity": "0",
+                    "availabilityId": "DZH318Z0BNHK"
+                  },
+                  {
+                    "rate": 0.015,
+                    "unit": "per 1000 tokens",
+                    "title": "paygo-inference-output-tokens",
+                    "includedQuantity": "0",
+                    "availabilityId": "DZH318Z0BN5V"
+                  },
+                  {
+                    "rate": 0.0006,
+                    "unit": "per 1000 tokens",
+                    "title": "paygo-inference-longctx-cache-hit-tokens",
+                    "includedQuantity": "0",
+                    "availabilityId": "DZH318Z0BNGB"
+                  },
+                  {
+                    "rate": 0.006,
+                    "unit": "per 1000 tokens",
+                    "title": "paygo-inference-longctx-input-tokens",
+                    "includedQuantity": "0",
+                    "availabilityId": "DZH318Z0BNHD"
+                  },
+                  {
+                    "rate": 0.006,
+                    "unit": "per 1000 tokens",
+                    "title": "paygo-inference-cache-write-1h-tokens",
+                    "includedQuantity": "0",
+                    "availabilityId": "DZH318Z0BNG7"
+                  },
+                  {
+                    "rate": 0.00375,
+                    "unit": "per 1000 tokens",
+                    "title": "paygo-inference-cache-write-tokens",
+                    "includedQuantity": "0",
+                    "availabilityId": "DZH318Z0BLQC"
+                  },
+                  {
+                    "rate": 0.012,
+                    "unit": "per 1000 tokens",
+                    "title": "paygo-inference-longctx-cache-write-1h-tokens",
+                    "includedQuantity": "0",
+                    "availabilityId": "DZH318Z0BLQ8"
+                  },
+                  {
+                    "rate": 0.003,
+                    "unit": "per 1000 tokens",
+                    "title": "paygo-inference-input-tokens",
+                    "includedQuantity": "0",
+                    "availabilityId": "DZH318Z0BN4D"
+                  },
+                  {
+                    "rate": 0.0075,
+                    "unit": "per 1000 tokens",
+                    "title": "paygo-inference-longctx-cache-write-tokens",
+                    "includedQuantity": "0",
+                    "availabilityId": "DZH318Z0BLPL"
+                  },
+                  {
+                    "rate": 0.0225,
+                    "unit": "per 1000 tokens",
+                    "title": "paygo-inference-longctx-output-tokens",
+                    "includedQuantity": "0",
+                    "availabilityId": "DZH318Z0BLQ9"
+                  }
+                ]
+              }
+            ],
+            "freeTrialDurationDays": 0,
+            "leadgenEnabled": false,
+            "azureInfraCostsExtra": false,
+            "isBYOL": false,
+            "priceVaries": false,
+            "isQuantifiable": false,
+            "minQuantity": null,
+            "maxQuantity": null,
+            "currencyCode": "USD",
+            "isPrivate": false,
+            "displayRank": 2147483647
+          }
+        ]
+      }
+    },
+    "claude-haiku-4-5": {
+      "offer_id": "anthropic.anthropic-claude-haiku-4-5-offer",
+      "publisher": "anthropic",
+      "has_pricing": true,
+      "meter_count": null,
+      "pricing": {
+        "input_per_1k": 0.001,
+        "output_per_1k": 0.005,
+        "meters": [
+          {
+            "name": "paygo-inference-cache-write-tokens",
+            "price": 0.00125
+          },
+          {
+            "name": "paygo-inference-cache-write-1h-tokens",
+            "price": 0.002
+          },
+          {
+            "name": "paygo-inference-output-tokens",
+            "price": 0.005
+          },
+          {
+            "name": "paygo-inference-input-tokens",
+            "price": 0.001
+          },
+          {
+            "name": "paygo-inference-cache-hit-tokens",
+            "price": 0.0001
+          }
+        ]
+      },
+      "raw_pricing": {
+        "billingRegion": "us",
+        "skus": [
+          {
+            "id": "anthropic-claude-haiku-4-5-plan",
+            "bigId": "DZH318Z0SMHL",
+            "skuId": "0003",
+            "offerType": 5,
+            "title": "anthropic-claude-haiku-4-5-plan",
+            "handoffURL": "https://portal.azure.com/#create/anthropic.anthropic-claude-haiku-4-5-offeranthropic-claude-haiku-4-5-plan",
+            "description": "Claude Haiku 4.5 delivers near-frontier performance for a wide range of use cases, and stands out as one of the best coding and agent models\u2013with the right speed and cost to power free products and high-volume user experiences. Ideal for powering free tier user experiences, real-time experiences, coding sub-agents, financial sub-agents, research sub-agents, and business tasks.",
+            "startingPrice": {
+              "value": 0,
+              "unit": "Month",
+              "billingPlan": null
+            },
+            "termPrices": [
+              {
+                "value": 0,
+                "unit": "Month",
+                "freeDurationDays": 0,
+                "availabilityId": "DZH318Z0BNCH",
+                "termId": "n7ja87drquhy",
+                "billingPlan": null,
+                "customMeter": [
+                  {
+                    "rate": 0.00125,
+                    "unit": "per 1000 tokens",
+                    "title": "paygo-inference-cache-write-tokens",
+                    "includedQuantity": "0",
+                    "availabilityId": "DZH318Z0BNCK"
+                  },
+                  {
+                    "rate": 0.002,
+                    "unit": "per 1000 tokens",
+                    "title": "paygo-inference-cache-write-1h-tokens",
+                    "includedQuantity": "0",
+                    "availabilityId": "DZH318Z0BNCJ"
+                  },
+                  {
+                    "rate": 0.005,
+                    "unit": "per 1000 tokens",
+                    "title": "paygo-inference-output-tokens",
+                    "includedQuantity": "0",
+                    "availabilityId": "DZH318Z0BNBW"
+                  },
+                  {
+                    "rate": 0.001,
+                    "unit": "per 1000 tokens",
+                    "title": "paygo-inference-input-tokens",
+                    "includedQuantity": "0",
+                    "availabilityId": "DZH318Z0BNCM"
+                  },
+                  {
+                    "rate": 0.0001,
+                    "unit": "per 1000 tokens",
+                    "title": "paygo-inference-cache-hit-tokens",
+                    "includedQuantity": "0",
+                    "availabilityId": "DZH318Z0BNCL"
+                  }
+                ]
+              }
+            ],
+            "freeTrialDurationDays": 0,
+            "leadgenEnabled": false,
+            "azureInfraCostsExtra": false,
+            "isBYOL": false,
+            "priceVaries": false,
+            "isQuantifiable": false,
+            "minQuantity": null,
+            "maxQuantity": null,
+            "currencyCode": "USD",
+            "isPrivate": false,
+            "displayRank": 2147483647
+          }
+        ]
+      }
+    },
+    "claude-opus-4-1": {
+      "offer_id": "anthropic.anthropic-claude-opus-4-1-offer",
+      "publisher": "anthropic",
+      "has_pricing": true,
+      "meter_count": null,
+      "pricing": {
+        "input_per_1k": 0.015,
+        "output_per_1k": 0.075,
+        "meters": [
+          {
+            "name": "paygo-inference-input-tokens",
+            "price": 0.015
+          },
+          {
+            "name": "paygo-inference-cache-write-tokens",
+            "price": 0.01875
+          },
+          {
+            "name": "paygo-inference-output-tokens",
+            "price": 0.075
+          },
+          {
+            "name": "paygo-inference-cache-write-1h-tokens",
+            "price": 0.03
+          },
+          {
+            "name": "paygo-inference-cache-hit-tokens",
+            "price": 0.0015
+          }
+        ]
+      },
+      "raw_pricing": {
+        "billingRegion": "us",
+        "skus": [
+          {
+            "id": "anthropic-claude-opus-4-1-plan",
+            "bigId": "DZH318Z0SMHQ",
+            "skuId": "0002",
+            "offerType": 5,
+            "title": "anthropic-claude-opus-4-1-plan",
+            "handoffURL": "https://portal.azure.com/#create/anthropic.anthropic-claude-opus-4-1-offeranthropic-claude-opus-4-1-plan",
+            "description": "Claude Opus 4.1 is an industry leader for coding. It delivers sustained performance on long-running tasks that require focused effort and thousands of steps, significantly expanding what AI agents can solve. It excels for customers needing frontier intelligence, including advanced coding, long-horizon tasks and complex problem solving, AI agents, agentic search and research, and content creation.",
+            "startingPrice": {
+              "value": 0,
+              "unit": "Month",
+              "billingPlan": null
+            },
+            "termPrices": [
+              {
+                "value": 0,
+                "unit": "Month",
+                "freeDurationDays": 0,
+                "availabilityId": "DZH318Z0BMMT",
+                "termId": "n7ja87drquhy",
+                "billingPlan": null,
+                "customMeter": [
+                  {
+                    "rate": 0.015,
+                    "unit": "per 1000 tokens",
+                    "title": "paygo-inference-input-tokens",
+                    "includedQuantity": "0",
+                    "availabilityId": "DZH318Z0BMMN"
+                  },
+                  {
+                    "rate": 0.01875,
+                    "unit": "per 1000 tokens",
+                    "title": "paygo-inference-cache-write-tokens",
+                    "includedQuantity": "0",
+                    "availabilityId": "DZH318Z0BMMF"
+                  },
+                  {
+                    "rate": 0.075,
+                    "unit": "per 1000 tokens",
+                    "title": "paygo-inference-output-tokens",
+                    "includedQuantity": "0",
+                    "availabilityId": "DZH318Z0BMMS"
+                  },
+                  {
+                    "rate": 0.03,
+                    "unit": "per 1000 tokens",
+                    "title": "paygo-inference-cache-write-1h-tokens",
+                    "includedQuantity": "0",
+                    "availabilityId": "DZH318Z0BMMR"
+                  },
+                  {
+                    "rate": 0.0015,
+                    "unit": "per 1000 tokens",
+                    "title": "paygo-inference-cache-hit-tokens",
+                    "includedQuantity": "0",
+                    "availabilityId": "DZH318Z0BMMJ"
+                  }
+                ]
+              }
+            ],
+            "freeTrialDurationDays": 0,
+            "leadgenEnabled": false,
+            "azureInfraCostsExtra": false,
+            "isBYOL": false,
+            "priceVaries": false,
+            "isQuantifiable": false,
+            "minQuantity": null,
+            "maxQuantity": null,
+            "currencyCode": "USD",
+            "isPrivate": false,
+            "displayRank": 2147483647
+          }
+        ]
+      }
+    },
+    "command-r-plus-08-2024": {
+      "offer_id": "cohere.cohere-command-r-plus-08-2024-offer",
+      "publisher": "cohere",
+      "has_pricing": true,
+      "meter_count": null,
+      "pricing": {
+        "input_per_1k": 0.0025,
+        "output_per_1k": 0.01,
+        "meters": [
+          {
+            "name": "paygo-inference-input-tokens",
+            "price": 0.0025
+          },
+          {
+            "name": "paygo-inference-output-tokens",
+            "price": 0.01
+          }
+        ]
+      },
+      "raw_pricing": {
+        "billingRegion": "us",
+        "skus": [
+          {
+            "id": "cohere-command-r-plus-08-2024-plan",
+            "bigId": "DZH318Z0MCC9",
+            "skuId": "0005",
+            "offerType": 5,
+            "title": "cohere-command-r-plus-08-2024-plan",
+            "handoffURL": "https://portal.azure.com/#create/cohere.cohere-command-r-plus-08-2024-offercohere-command-r-plus-08-2024-plan",
+            "description": "<p>Cohere Command R+ 08-2024 enables access to the Command R+ 08-2024 inference API in Azure AI Studio and Azure Machine Learning. It can be used on any language-based task due to its state-of-the-art reasoning and knowledge capabilities.</p><p>This API is available with pay-as-you-go billing based on input and output tokens used for inferencing.<br>\"paygo-inference-input-tokens\" is the cost associated with the tokens used as input for inference of the Command R+ 08-2024 model.</p><p>\"paygo-inference-output-tokens\" is the cost associated with the tokens generated as output for the inference of the Command R+ 08-2024 model.</p><p><br></p><p>Note: There are no refunds for pay-as-you-go services.</p>",
+            "startingPrice": {
+              "value": 0,
+              "unit": "Month",
+              "billingPlan": null
+            },
+            "termPrices": [
+              {
+                "value": 0,
+                "unit": "Month",
+                "freeDurationDays": 0,
+                "availabilityId": "DZH318Z0BLS6",
+                "termId": "gmz7xq9ge3py",
+                "billingPlan": null,
+                "customMeter": [
+                  {
+                    "rate": 0.0025,
+                    "unit": "per 1000 tokens",
+                    "title": "paygo-inference-input-tokens",
+                    "includedQuantity": "0",
+                    "availabilityId": "DZH318Z0BN83"
+                  },
+                  {
+                    "rate": 0.01,
+                    "unit": "per 1000 tokens",
+                    "title": "paygo-inference-output-tokens",
+                    "includedQuantity": "0",
+                    "availabilityId": "DZH318Z0BN1Z"
+                  }
+                ]
+              }
+            ],
+            "freeTrialDurationDays": 0,
+            "leadgenEnabled": false,
+            "azureInfraCostsExtra": false,
+            "isBYOL": false,
+            "priceVaries": false,
+            "isQuantifiable": false,
+            "minQuantity": null,
+            "maxQuantity": null,
+            "currencyCode": "USD",
+            "isPrivate": false,
+            "displayRank": 2147483647
+          }
+        ]
+      }
+    },
+    "command-r-08-2024": {
+      "offer_id": "cohere.cohere-command-r-08-2024-offer",
+      "publisher": "cohere",
+      "has_pricing": true,
+      "meter_count": null,
+      "pricing": {
+        "input_per_1k": 0.00015,
+        "output_per_1k": 0.0006,
+        "meters": [
+          {
+            "name": "paygo-inference-input-tokens",
+            "price": 0.00015
+          },
+          {
+            "name": "paygo-inference-output-tokens",
+            "price": 0.0006
+          }
+        ]
+      },
+      "raw_pricing": {
+        "billingRegion": "us",
+        "skus": [
+          {
+            "id": "cohere-command-r-08-2024-plan",
+            "bigId": "DZH318Z0MCC8",
+            "skuId": "0004",
+            "offerType": 5,
+            "title": "cohere-command-r-08-2024-plan",
+            "handoffURL": "https://portal.azure.com/#create/cohere.cohere-command-r-08-2024-offercohere-command-r-08-2024-plan",
+            "description": "<p>Cohere Command R 08-2024 enables access to the Command R 08-2024 inference API in Azure AI Studio and Azure Machine Learning. It can be used on any language-based task due to its state-of-the-art reasoning and knowledge capabilities.</p><p>This API is available with pay-as-you-go billing based on input and output tokens used for inferencing.<br>\"paygo-inference-input-tokens\" is the cost associated with the tokens used as input for inference of the Command R 08-2024 model.</p><p>\"paygo-inference-output-tokens\" is the cost associated with the tokens generated as output for the inference of the Command R 08-2024 model.</p><p><br></p><p>Note: There are no refunds for pay-as-you-go services.</p>",
+            "startingPrice": {
+              "value": 0,
+              "unit": "Month",
+              "billingPlan": null
+            },
+            "termPrices": [
+              {
+                "value": 0,
+                "unit": "Month",
+                "freeDurationDays": 0,
+                "availabilityId": "DZH318Z0BN3T",
+                "termId": "gmz7xq9ge3py",
+                "billingPlan": null,
+                "customMeter": [
+                  {
+                    "rate": 0.00015,
+                    "unit": "per 1000 tokens",
+                    "title": "paygo-inference-input-tokens",
+                    "includedQuantity": "0",
+                    "availabilityId": "DZH318Z0BNKN"
+                  },
+                  {
+                    "rate": 0.0006,
+                    "unit": "per 1000 tokens",
+                    "title": "paygo-inference-output-tokens",
+                    "includedQuantity": "0",
+                    "availabilityId": "DZH318Z0BNKT"
+                  }
+                ]
+              }
+            ],
+            "freeTrialDurationDays": 0,
+            "leadgenEnabled": false,
+            "azureInfraCostsExtra": false,
+            "isBYOL": false,
+            "priceVaries": false,
+            "isQuantifiable": false,
+            "minQuantity": null,
+            "maxQuantity": null,
+            "currencyCode": "USD",
+            "isPrivate": false,
+            "displayRank": 2147483647
+          }
+        ]
+      }
+    },
+    "embed-v3-english": {
+      "offer_id": "cohere.cohere-embed-v3-english-offer",
+      "publisher": "cohere",
+      "has_pricing": true,
+      "meter_count": null,
+      "pricing": {
+        "input_per_1k": null,
+        "output_per_1k": null,
+        "meters": [
+          {
+            "name": "embedding-tokens",
+            "price": 0.0001
+          }
+        ]
+      },
+      "raw_pricing": {
+        "billingRegion": "us",
+        "skus": [
+          {
+            "id": "cohere-embed-v3-english-plan-0404",
+            "bigId": "DZH318Z0H8VF",
+            "skuId": "0001",
+            "offerType": 5,
+            "title": "cohere-embed-v3-english-plan-0404",
+            "handoffURL": "https://portal.azure.com/#create/cohere.cohere-embed-v3-english-offercohere-embed-v3-english-plan-0404",
+            "description": "<p dir=\"ltr\">Cohere Embed v3 - English enables access to the Cohere Embed v3 - English inference API in Azure AI Studio and Azure Machine Learning. Cohere's Embed models are the market\u2019s leading multimodal (text and image) representation model used for semantic search, retrieval-augmented generation (RAG), classification, and clustering.</p><p dir=\"ltr\">This API is available with pay-as-you-go billing based on input used for inferencing.</p><p dir=\"ltr\">\"embedding-tokens\" is the cost associated with the tokens used as input for inference of the Cohere Embed v3 - English model.</p><p dir=\"ltr\">Note: There are no refunds for pay-as-you-go services.</p>",
+            "startingPrice": {
+              "value": 0,
+              "unit": "Month",
+              "billingPlan": null
+            },
+            "termPrices": [
+              {
+                "value": 0,
+                "unit": "Month",
+                "freeDurationDays": 0,
+                "availabilityId": "DZH318Z0BN21",
+                "termId": "gmz7xq9ge3py",
+                "billingPlan": null,
+                "customMeter": [
+                  {
+                    "rate": 0.0001,
+                    "unit": "per 1000 tokens",
+                    "title": "embedding-tokens",
+                    "includedQuantity": "0",
+                    "availabilityId": "DZH318Z0BNH4"
+                  }
+                ]
+              }
+            ],
+            "freeTrialDurationDays": 0,
+            "leadgenEnabled": false,
+            "azureInfraCostsExtra": false,
+            "isBYOL": false,
+            "priceVaries": false,
+            "isQuantifiable": false,
+            "minQuantity": null,
+            "maxQuantity": null,
+            "currencyCode": "USD",
+            "isPrivate": false,
+            "displayRank": 2147483647
+          }
+        ]
+      }
+    },
+    "embed-v3-multilingual": {
+      "offer_id": "cohere.cohere-embed-v3-multilingual-offer",
+      "publisher": "cohere",
+      "has_pricing": true,
+      "meter_count": null,
+      "pricing": {
+        "input_per_1k": null,
+        "output_per_1k": null,
+        "meters": [
+          {
+            "name": "embedding-tokens",
+            "price": 0.0001
+          }
+        ]
+      },
+      "raw_pricing": {
+        "billingRegion": "us",
+        "skus": [
+          {
+            "id": "cohere-embed-v3-multilingual-plan-0404",
+            "bigId": "DZH318Z0H8VD",
+            "skuId": "0001",
+            "offerType": 5,
+            "title": "cohere-embed-v3-multilingual-plan-0404",
+            "handoffURL": "https://portal.azure.com/#create/cohere.cohere-embed-v3-multilingual-offercohere-embed-v3-multilingual-plan-0404",
+            "description": "<p dir=\"ltr\">Cohere Embed v3 - Multilingual enables access to the Cohere Embed v3 - Multilingual inference API in Azure AI Studio and Azure Machine Learning. Cohere's Embed models are the market\u2019s leading multimodal (text and image) representation model used for semantic search, retrieval-augmented generation (RAG), classification, and clustering.</p><p dir=\"ltr\">This API is available with pay-as-you-go billing based on input used for inferencing.</p><p dir=\"ltr\">\"embedding-tokens\" is the cost associated with the tokens used as input for inference of the Cohere Embed v3 - Multilingual model.</p><p dir=\"ltr\">Note: There are no refunds for pay-as-you-go services.</p>",
+            "startingPrice": {
+              "value": 0,
+              "unit": "Month",
+              "billingPlan": null
+            },
+            "termPrices": [
+              {
+                "value": 0,
+                "unit": "Month",
+                "freeDurationDays": 0,
+                "availabilityId": "DZH318Z0BN9L",
+                "termId": "gmz7xq9ge3py",
+                "billingPlan": null,
+                "customMeter": [
+                  {
+                    "rate": 0.0001,
+                    "unit": "per 1000 tokens",
+                    "title": "embedding-tokens",
+                    "includedQuantity": "0",
+                    "availabilityId": "DZH318Z0BMLT"
+                  }
+                ]
+              }
+            ],
+            "freeTrialDurationDays": 0,
+            "leadgenEnabled": false,
+            "azureInfraCostsExtra": false,
+            "isBYOL": false,
+            "priceVaries": false,
+            "isQuantifiable": false,
+            "minQuantity": null,
+            "maxQuantity": null,
+            "currencyCode": "USD",
+            "isPrivate": false,
+            "displayRank": 2147483647
+          }
+        ]
+      }
+    },
+    "cohere-embed-v3-english": {
+      "offer_id": "cohere.cohere-embed-v3-english-offer",
+      "publisher": "cohere",
+      "has_pricing": true,
+      "meter_count": null,
+      "pricing": {
+        "input_per_1k": null,
+        "output_per_1k": null,
+        "meters": [
+          {
+            "name": "embedding-tokens",
+            "price": 0.0001
+          }
+        ]
+      },
+      "raw_pricing": {
+        "billingRegion": "us",
+        "skus": [
+          {
+            "id": "cohere-embed-v3-english-plan-0404",
+            "bigId": "DZH318Z0H8VF",
+            "skuId": "0001",
+            "offerType": 5,
+            "title": "cohere-embed-v3-english-plan-0404",
+            "handoffURL": "https://portal.azure.com/#create/cohere.cohere-embed-v3-english-offercohere-embed-v3-english-plan-0404",
+            "description": "<p dir=\"ltr\">Cohere Embed v3 - English enables access to the Cohere Embed v3 - English inference API in Azure AI Studio and Azure Machine Learning. Cohere's Embed models are the market\u2019s leading multimodal (text and image) representation model used for semantic search, retrieval-augmented generation (RAG), classification, and clustering.</p><p dir=\"ltr\">This API is available with pay-as-you-go billing based on input used for inferencing.</p><p dir=\"ltr\">\"embedding-tokens\" is the cost associated with the tokens used as input for inference of the Cohere Embed v3 - English model.</p><p dir=\"ltr\">Note: There are no refunds for pay-as-you-go services.</p>",
+            "startingPrice": {
+              "value": 0,
+              "unit": "Month",
+              "billingPlan": null
+            },
+            "termPrices": [
+              {
+                "value": 0,
+                "unit": "Month",
+                "freeDurationDays": 0,
+                "availabilityId": "DZH318Z0BN21",
+                "termId": "gmz7xq9ge3py",
+                "billingPlan": null,
+                "customMeter": [
+                  {
+                    "rate": 0.0001,
+                    "unit": "per 1000 tokens",
+                    "title": "embedding-tokens",
+                    "includedQuantity": "0",
+                    "availabilityId": "DZH318Z0BNH4"
+                  }
+                ]
+              }
+            ],
+            "freeTrialDurationDays": 0,
+            "leadgenEnabled": false,
+            "azureInfraCostsExtra": false,
+            "isBYOL": false,
+            "priceVaries": false,
+            "isQuantifiable": false,
+            "minQuantity": null,
+            "maxQuantity": null,
+            "currencyCode": "USD",
+            "isPrivate": false,
+            "displayRank": 2147483647
+          }
+        ]
+      }
+    },
+    "jamba-1-5-large": {
+      "offer_id": "ai21labs.ai21-jamba-1-5-large-offer",
+      "publisher": "ai21labs",
+      "has_pricing": true,
+      "meter_count": null,
+      "pricing": {
+        "input_per_1k": 0.002,
+        "output_per_1k": 0.008,
+        "meters": [
+          {
+            "name": "paygo input tokens",
+            "price": 0.002
+          },
+          {
+            "name": "paygo output tokens",
+            "price": 0.008
+          }
+        ]
+      },
+      "raw_pricing": {
+        "billingRegion": "us",
+        "skus": [
+          {
+            "id": "ai21-jamba-1-5-large-plan",
+            "bigId": "DZH318Z0MFSJ",
+            "skuId": "0002",
+            "offerType": 5,
+            "title": "AI21 Labs Jamba 1.5 Large",
+            "handoffURL": "https://portal.azure.com/#create/ai21labs.ai21-jamba-1-5-large-offerai21-jamba-1-5-large-plan",
+            "description": "<span dir=\"ltr\"><p>This enables access to AI21\u2019s Jamba 1.5 Large model in Azure AI Studio and Azure Machine Learning. It can be used on any language-based task due to its state-of-the-art reasoning and knowledge capabilities.</p><p>Jamba 1.5 Large leverages an unprecedented hybrid architecture combining a novel SSM language model architecture with the traditional Transformer architecture. This hybrid approach allows for a 256K context window, making long context use cases more economically feasible for enterprises and boosting quality of outputs. The model has 94B active parameters and 398B total parameters.</p><p> </p><p>This API is available with pay-as-you-go billing based on input and output tokens.</p><p><strong>Note: There are no refunds for pay-as-you-go services</strong></p> </span>",
+            "startingPrice": {
+              "value": 0,
+              "unit": "Month",
+              "billingPlan": null
+            },
+            "termPrices": [
+              {
+                "value": 0,
+                "unit": "Month",
+                "freeDurationDays": 0,
+                "availabilityId": "DZH318Z0BLS5",
+                "termId": "gmz7xq9ge3py",
+                "billingPlan": null,
+                "customMeter": [
+                  {
+                    "rate": 0.002,
+                    "unit": "per 1000 tokens",
+                    "title": "PayGo Input Tokens",
+                    "includedQuantity": "0",
+                    "availabilityId": "DZH318Z0BN7Z"
+                  },
+                  {
+                    "rate": 0.008,
+                    "unit": "per 1000 tokens",
+                    "title": "PayGo Output Tokens",
+                    "includedQuantity": "0",
+                    "availabilityId": "DZH318Z0BN7V"
+                  }
+                ]
+              }
+            ],
+            "freeTrialDurationDays": 0,
+            "leadgenEnabled": false,
+            "azureInfraCostsExtra": false,
+            "isBYOL": false,
+            "priceVaries": false,
+            "isQuantifiable": false,
+            "minQuantity": null,
+            "maxQuantity": null,
+            "currencyCode": "USD",
+            "isPrivate": false,
+            "displayRank": 2147483647
+          }
+        ]
+      }
+    },
+    "jamba-instruct": {
+      "offer_id": "ai21labs.ai21-jamba-instruct-offer",
+      "publisher": "ai21labs",
+      "has_pricing": true,
+      "meter_count": null,
+      "pricing": {
+        "input_per_1k": 0.0005,
+        "output_per_1k": 0.0007,
+        "meters": [
+          {
+            "name": "paygo input tokens",
+            "price": 0.0005
+          },
+          {
+            "name": "paygo output tokens",
+            "price": 0.0007
+          }
+        ]
+      },
+      "raw_pricing": {
+        "billingRegion": "us",
+        "skus": [
+          {
+            "id": "ai21-jamba-instruct-plan",
+            "bigId": "DZH318Z0LFC2",
+            "skuId": "0002",
+            "offerType": 5,
+            "title": "AI21 Labs Jamba-Instruct",
+            "handoffURL": "https://portal.azure.com/#create/ai21labs.ai21-jamba-instruct-offerai21-jamba-instruct-plan",
+            "description": "<span><p dir=\"ltr\">Jamba-Instruct leverages an unprecedented hybrid architecture combining a novel SSM language model architecture with the traditional Transformer architecture. This hybrid approach allows for a 70K context window, making long context use cases more economically feasible for enterprises and boosting quality of outputs. </p><p dir=\"ltr\">From streamlining document comprehension to enabling more robust and sophisticated RAG (Retrieval Augmented Generation) mechanisms, Jamba-Instruct\u2019s context window opens up new opportunities for powerful GenAI workflows. <a href=\"https://www.ai21.com/meeting/contact\">Contact us</a> if you need a larger context window up to 256K.</p><p dir=\"ltr\">Jamba-Instruct is now available as a chat completion model in the Azure AI Model Catalog within Azure AI Studio and Azure Machine Learning. Azure AI Studio is the perfect platform for building Generative AI apps. AI Studio comes with features like Playground to explore models, Prompt Flow for prompt engineering and RAG to integrate your data into your apps.</p><p dir=\"ltr\">The model is billed on a pay-as-you-go basis for the input and output tokens.</p><p dir=\"ltr\">This offer is integrated with Azure AI Studio. You will be asked to navigate to Azure AI Studio to subscribe to this offer and deploy the model.</p><p dir=\"ltr\"><span dir=\"ltr\">Note: There are no refunds for pay-as-you-go services.</span><br></p></span>",
+            "startingPrice": {
+              "value": 0,
+              "unit": "Month",
+              "billingPlan": null
+            },
+            "termPrices": [
+              {
+                "value": 0,
+                "unit": "Month",
+                "freeDurationDays": 0,
+                "availabilityId": "DZH318Z0BN7X",
+                "termId": "gmz7xq9ge3py",
+                "billingPlan": null,
+                "customMeter": [
+                  {
+                    "rate": 0.0005,
+                    "unit": "per 1000 tokens",
+                    "title": "PayGo Input Tokens",
+                    "includedQuantity": "0",
+                    "availabilityId": "DZH318Z0BNGB"
+                  },
+                  {
+                    "rate": 0.0007,
+                    "unit": "per 1000 tokens",
+                    "title": "PayGo Output Tokens",
+                    "includedQuantity": "0",
+                    "availabilityId": "DZH318Z0BNG6"
+                  }
+                ]
+              }
+            ],
+            "freeTrialDurationDays": 0,
+            "leadgenEnabled": false,
+            "azureInfraCostsExtra": false,
+            "isBYOL": false,
+            "priceVaries": false,
+            "isQuantifiable": false,
+            "minQuantity": null,
+            "maxQuantity": null,
+            "currencyCode": "USD",
+            "isPrivate": false,
+            "displayRank": 2147483647
+          }
+        ]
+      }
+    },
+    "ai21-jamba-1-5-large": {
+      "offer_id": "ai21labs.ai21-jamba-1-5-large-offer",
+      "publisher": "ai21labs",
+      "has_pricing": true,
+      "meter_count": null,
+      "pricing": {
+        "input_per_1k": 0.002,
+        "output_per_1k": 0.008,
+        "meters": [
+          {
+            "name": "paygo input tokens",
+            "price": 0.002
+          },
+          {
+            "name": "paygo output tokens",
+            "price": 0.008
+          }
+        ]
+      },
+      "raw_pricing": {
+        "billingRegion": "us",
+        "skus": [
+          {
+            "id": "ai21-jamba-1-5-large-plan",
+            "bigId": "DZH318Z0MFSJ",
+            "skuId": "0002",
+            "offerType": 5,
+            "title": "AI21 Labs Jamba 1.5 Large",
+            "handoffURL": "https://portal.azure.com/#create/ai21labs.ai21-jamba-1-5-large-offerai21-jamba-1-5-large-plan",
+            "description": "<span dir=\"ltr\"><p>This enables access to AI21\u2019s Jamba 1.5 Large model in Azure AI Studio and Azure Machine Learning. It can be used on any language-based task due to its state-of-the-art reasoning and knowledge capabilities.</p><p>Jamba 1.5 Large leverages an unprecedented hybrid architecture combining a novel SSM language model architecture with the traditional Transformer architecture. This hybrid approach allows for a 256K context window, making long context use cases more economically feasible for enterprises and boosting quality of outputs. The model has 94B active parameters and 398B total parameters.</p><p> </p><p>This API is available with pay-as-you-go billing based on input and output tokens.</p><p><strong>Note: There are no refunds for pay-as-you-go services</strong></p> </span>",
+            "startingPrice": {
+              "value": 0,
+              "unit": "Month",
+              "billingPlan": null
+            },
+            "termPrices": [
+              {
+                "value": 0,
+                "unit": "Month",
+                "freeDurationDays": 0,
+                "availabilityId": "DZH318Z0BLS5",
+                "termId": "gmz7xq9ge3py",
+                "billingPlan": null,
+                "customMeter": [
+                  {
+                    "rate": 0.002,
+                    "unit": "per 1000 tokens",
+                    "title": "PayGo Input Tokens",
+                    "includedQuantity": "0",
+                    "availabilityId": "DZH318Z0BN7Z"
+                  },
+                  {
+                    "rate": 0.008,
+                    "unit": "per 1000 tokens",
+                    "title": "PayGo Output Tokens",
+                    "includedQuantity": "0",
+                    "availabilityId": "DZH318Z0BN7V"
+                  }
+                ]
+              }
+            ],
+            "freeTrialDurationDays": 0,
+            "leadgenEnabled": false,
+            "azureInfraCostsExtra": false,
+            "isBYOL": false,
+            "priceVaries": false,
+            "isQuantifiable": false,
+            "minQuantity": null,
+            "maxQuantity": null,
+            "currencyCode": "USD",
+            "isPrivate": false,
+            "displayRank": 2147483647
+          }
+        ]
+      }
+    }
+  },
+  "not_found": [
+    "anthropic/claude-sonnet-4",
+    "anthropic/claude-3-7-sonnet",
+    "anthropic/claude-3-5-sonnet",
+    "anthropic/claude-3-5-sonnet-v2",
+    "anthropic/claude-3-5-haiku",
+    "anthropic/claude-3-opus",
+    "anthropic/claude-3-sonnet",
+    "anthropic/claude-3-haiku",
+    "meta/llama-3-3-70b-instruct",
+    "meta/llama-3-2-90b-vision-instruct",
+    "meta/llama-3-2-11b-vision-instruct",
+    "meta/llama-3-2-3b-instruct",
+    "meta/llama-3-2-1b-instruct",
+    "meta/llama-3-1-405b-instruct",
+    "meta/llama-3-1-70b-instruct",
+    "meta/llama-3-1-8b-instruct",
+    "meta/llama-3-70b-instruct",
+    "meta/llama-3-8b-instruct",
+    "meta/meta-llama-3-3-70b-instruct",
+    "meta/meta-llama-3-1-405b-instruct",
+    "meta/meta-llama-3-1-70b-instruct",
+    "meta/meta-llama-3-1-8b-instruct",
+    "mistralai/mistral-large-2411",
+    "mistralai/mistral-large-2407",
+    "mistralai/mistral-large",
+    "mistralai/mistral-small-2409",
+    "mistralai/mistral-small",
+    "mistralai/mistral-nemo-2407",
+    "mistralai/mistral-nemo",
+    "mistralai/codestral-2405",
+    "mistralai/codestral",
+    "mistralai/ministral-3b-2410",
+    "mistralai/ministral-3b",
+    "mistralai/ministral-8b-2410",
+    "mistralai/ministral-8b",
+    "mistralai/pixtral-12b-2409",
+    "mistralai/pixtral-12b",
+    "mistralai/pixtral-large-2411",
+    "mistralai/pixtral-large",
+    "cohere/command-r-plus",
+    "cohere/command-r",
+    "cohere/command",
+    "cohere/command-light",
+    "cohere/embed-english-v3",
+    "cohere/embed-multilingual-v3",
+    "cohere/rerank-v3-english",
+    "cohere/rerank-v3-multilingual",
+    "cohere/cohere-command-r-plus",
+    "cohere/cohere-command-r",
+    "ai21labs/jamba-1-5-mini",
+    "ai21labs/j2-ultra",
+    "ai21labs/j2-mid",
+    "ai21labs/ai21-jamba-1-5-mini",
+    "nvidia/nemotron-4-340b-instruct",
+    "nvidia/llama-3-1-nemotron-70b-instruct",
+    "nvidia/nvidia-nemotron-4-340b-instruct"
+  ],
+  "python_code": "\n# Copy this to MARKETPLACE_OFFERS in unified_pricing.py:\n\nDISCOVERED_OFFERS = {\n    # AI21LABS\n    \"ai21-jamba-1-5-large\": \"ai21labs.ai21-jamba-1-5-large-offer\",\n    \"jamba-1-5-large\": \"ai21labs.ai21-jamba-1-5-large-offer\",\n    \"jamba-instruct\": \"ai21labs.ai21-jamba-instruct-offer\",\n\n    # ANTHROPIC\n    \"claude-haiku-4-5\": \"anthropic.anthropic-claude-haiku-4-5-offer\",\n    \"claude-opus-4-1\": \"anthropic.anthropic-claude-opus-4-1-offer\",\n    \"claude-opus-4-5\": \"anthropic.anthropic-claude-opus-4-5-offer\",\n    \"claude-sonnet-4-5\": \"anthropic.anthropic-claude-sonnet-4-5-offer\",\n\n    # COHERE\n    \"cohere-embed-v3-english\": \"cohere.cohere-embed-v3-english-offer\",\n    \"command-r-08-2024\": \"cohere.cohere-command-r-08-2024-offer\",\n    \"command-r-plus-08-2024\": \"cohere.cohere-command-r-plus-08-2024-offer\",\n    \"embed-v3-english\": \"cohere.cohere-embed-v3-english-offer\",\n    \"embed-v3-multilingual\": \"cohere.cohere-embed-v3-multilingual-offer\",\n\n}"
+}
